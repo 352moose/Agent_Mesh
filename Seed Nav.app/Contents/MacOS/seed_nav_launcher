@@ -9,5 +9,5 @@ for PY in \
   /opt/homebrew/bin/python3 \
   /usr/local/bin/python3 \
   /usr/bin/python3; do
-  [ -x "$PY" ] && exec "$PY" "$REPO/APPS/seed_nav/seed_nav.py" "$REPO"
+  [ -x "$PY" ] && exec "$PY" "$REPO/APPS/seed_nav/seed_nav.py"
 done

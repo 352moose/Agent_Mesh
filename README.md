@@ -32,7 +32,7 @@ Or from a terminal:
 python3 APPS/seed_nav/seed_nav.py [folder]
 ```
 
-No argument opens this repo's root. Python 3 standard library only — no installs, no build step.
+No argument opens the seed vault (`VAULT_SEED/`) — the repo's app scaffolding stays out of view; pass a folder to open anything else. Python 3 standard library only — no installs, no build step.
 
 ### Factory-fresh machine
 
