@@ -1,0 +1,13 @@
+#!/bin/bash
+# Seed Nav launcher — repo root is three levels up from Contents/MacOS/.
+# Interpreter choice matters: the system /usr/bin/python3 ships Tk 8.5,
+# which draws a BLANK tree on modern macOS. Prefer any Tk 8.6 python
+# (python.org framework, Homebrew), fall back to system python last.
+REPO="$(cd "$(dirname "$0")/../../.." && pwd)"
+for PY in \
+  /Library/Frameworks/Python.framework/Versions/Current/bin/python3 \
+  /opt/homebrew/bin/python3 \
+  /usr/local/bin/python3 \
+  /usr/bin/python3; do
+  [ -x "$PY" ] && exec "$PY" "$REPO/APPS/seed_nav/seed_nav.py" "$REPO"
+done

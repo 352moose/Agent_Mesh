@@ -1,0 +1,27 @@
+---
+type: work_order
+from: MESH SEED
+to: OVERSEER
+created: 2026/08/05
+review_status: pending_review
+title: First spin-up — workspace setup
+---
+
+# FIRST SPIN UP PROCEDURE — OVERSEER
+
+> One-time workspace setup, fired by the first-run gate in SPIN UP. Output: a verified frame, a tested tooling surface, staged crons, and a live desk channel. User knowledge, the cold-start mine, and the trigger registry are the Guide's cold start; projects are the Director's — read what other seats produced, never re-collect it. When setup is done, flip this file to `review_status: sweep` — the gate never fires again.
+
+---
+
+## Sequence
+
+| Phase  | DO                      | Interrogatives                                                                                                                          |
+| ------ | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------|
+| Work   | Verify the frame        | walk the folder map in `../../../../../START_HERE/START_HERE.md` against the disk on this machine — every room present, nothing orphaned, paths resolving; fix or flag what doesn't match |
+| Work   | Confirm tooling surface | the seats ship with no `Toolset` row — it cannot be assumed from another machine. Probe live on THIS machine: which tools respond (CLI, MCP, file access), verified by real-time testing, never inferred. Save the result as a `Toolset` row in each seat boot's PROPERTIES (`../../BOOTSTRAPS/[ROLE]/`), standard format, populated only with what was tested here |
+| Work   | Stage the crons         | context permitting — build from the manual at `../../../../OPERATOR_WORKSPACE/CRONS/README.md`: master index + desk sweep, staged into `CRONS/` for the user to install and own; agents never own scheduled execution (RULEBOOK); verified only on a real scheduled tick. Install = guided walkthrough per the manual: assume the user has never opened Terminal — one step at a time, exact clicks and paste-ready commands, confirm each result before the next. Short on context = carry to a second Overseer session |
+| Work   | Prove the desks flow    | walk every desk under `../../DESKS/`: standard frontmatter on every file, `review_status` lifecycle honored; move one real file end-to-end — sent `pending_review`, read, flipped `sweep`, swept to `../../../../TRASH/Desk_Sweep/` — before calling the channel live |
+| Work   | Record the mesh facts   | write to `../../MEMORY_CARDS/ACTIVE_MEMORY/OVERSEER/ACTIVE.md` per its page rules: the machine, the tested tooling surface, the seat roster, cron state |
+| Work   | Report to the user      | drop `REPORT_YYYY-MM-DD_1.md` on `../../../../OPERATOR_WORKSPACE/DESK/`: what was set up, what is still open, the next call |
+| Work   | Close out               | flip this file to `review_status: sweep`                                                                                                 |
+| Report | Hand off                | recommend session close; after close, the user says **"fetch me the director"** in a fresh session — the first project stands up there |
