@@ -8,7 +8,8 @@ Turn-based and semi-autonomous — quality output over loops or sandboxes, with 
 
 1. Get this folder onto your machine.
 2. Point your assistant at `VAULT_SEED/START_HERE/START_HERE.md` and tell it to **execute this document** (say *execute* — an agent told to *read* will read, nod, and wait).
-3. Say the trigger phrases it teaches you. The mesh does the rest.
+3. The guide will spin up and walk you through the vault, intake is skippable, after the tour, it will prompt a session close, this is the first memory cycle and seeds the standard, after session close, you will be prompted to spin up the overseer using the trigger phrases it teaches you.
+4. The overseer will do the heavy lifting setting up the workspace.
 
 ## What's here
 
