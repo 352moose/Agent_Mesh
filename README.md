@@ -15,9 +15,11 @@ Turn-based and semi-autonomous — quality output over loops or sandboxes, with 
 | Path | What it is |
 |---|---|
 | `VAULT_SEED/` | The seed — front door (`START_HERE/`) plus the blank workspace (`WORKSPACE/`) |
-| `APPS/seed_nav/` | File-tree sidebar window — browse the vault, double-click to open any file natively |
+| `APPS/seed_nav/` | Optional file-tree sidebar — only for browsing without a markdown editor |
 
-## Nav app
+## Nav app (optional)
+
+The workspace is just files and folders — the intended way to live in it is any markdown editor (Obsidian is a natural fit). Seed Nav exists only for those who'd rather not adopt one: a bare-bones sidebar for clicking around the file structure. Already have an editor you like? Skip this whole section.
 
 Double-click **`Seed Nav`** (the app, macOS) or **`Seed Nav.bat`** (Windows) here at the root — a tall sidebar window opens with the file tree; double-click any file to open it in your default editor. First launch on macOS may need right-click → Open if Gatekeeper objects.
 
