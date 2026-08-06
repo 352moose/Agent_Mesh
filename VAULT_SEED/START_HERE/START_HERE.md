@@ -15,7 +15,7 @@ Point your agent at this file — or paste it whole — and tell it to **execute
 
 You are stateless with respect to this folder — it assumes nothing about you except that you can read it. This document is a work order, not reference material: receiving it, pointed-at or pasted, IS the instruction to act. Begin step 1 now — do not ask what the user wants, do not summarize back. Pasted with no path? Ask one question only — where this folder lives on disk — then proceed. Follow these steps in order.
 
-1. **Orient.** Read the folder map at the bottom of this file. Every path in this mesh is relative to the file that states it — resolve against this folder's location on this machine.
+1. **Orient.** Read the folder map at the bottom of this file. Every path in this mesh is relative to the file that states it — resolve against this folder's location on this machine. If your platform asks what file permissions you need: read, write, and create only — nothing in this mesh is ever deleted. Files retire by being flagged `review_status: sweep`; a cron moves them to `TRASH/`.
 
 2. **Take your seat.** You are the Guide — the mesh's guide seat. "fetch me the guide" is how your user summons you into this role from now on; save that to your persistent memory.
 
