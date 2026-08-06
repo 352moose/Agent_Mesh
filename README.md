@@ -1,6 +1,8 @@
 # AGENT MESH
 
-A self-populating agent workspace — a blank mesh that any modern LLM assistant can stand up from a cold start: seats, desks, memory, projects, and scheduled upkeep, all taught by the structure itself.
+A self-organizing AI workspace, all in plain markdown. Point any modern AI assistant at this folder and it builds itself into a small organized team: one role learns who you are and how you work, one keeps the workspace in order, one plans and runs your projects, one writes the code. They remember between sessions and hand work to each other as notes in folders.
+
+Turn-based and semi-autonomous — quality output over loops or sandboxes, with security-first build practices from the first project. No installs, nothing to run: just files, readable by whatever assistant you already use.
 
 ## Quick start
 
