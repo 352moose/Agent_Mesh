@@ -22,7 +22,9 @@ Turn-based and semi-autonomous — quality output over loops or sandboxes, with 
 
 The workspace is just files and folders — the intended way to live in it is any markdown editor (Obsidian is a natural fit). Seed Nav exists only for those who'd rather not adopt one: a bare-bones sidebar for clicking around the file structure. Already have an editor you like? Skip this whole section.
 
-Double-click **`Seed Nav`** (the app, macOS) or **`Seed Nav.bat`** (Windows) here at the root — a tall sidebar window opens with the file tree; double-click any file to open it in your default editor. First launch on macOS may need right-click → Open if Gatekeeper objects.
+Double-click **`Seed Nav`** (the app, macOS) or **`Seed Nav.bat`** (Windows) here at the root — a tall sidebar window opens with the file tree; double-click any file to open it in your default editor.
+
+First launch on macOS shows a warning — *"Apple could not verify 'Seed Nav' is free of malware"*. That's because the app is an unsigned open-source script, not registered with Apple. Click **Done** (not Move to Trash), then open **System Settings → Privacy & Security**, scroll down to the "Seed Nav" notice, and click **Open Anyway** — the next double-click opens normally, and the warning never returns. On older macOS versions, right-click → **Open** → **Open** does the same job in one step.
 
 Or from a terminal:
 
