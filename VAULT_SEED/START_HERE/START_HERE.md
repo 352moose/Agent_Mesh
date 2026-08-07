@@ -9,7 +9,7 @@ This is the front door of a seed mesh: a blank, self-populating agent workspace.
 
 ## If you are the human
 
-Point your agent at this file — or paste it whole — and tell it to **execute this document**. Say *execute*: an agent told to *read* will read, nod, and wait for instructions that are already in its hands. It will register the mesh's triggers, drop its first desk report, then walk you through intake — who you are, how you work, and what this mesh should build first.
+Point your agent at this file — or paste it whole — and tell it to **execute this document**. Say *execute*: an agent told to *read* will read, nod, and wait for instructions that are already in its hands. It will register the mesh's triggers, drop its first desk report, then give you the tour — and offer, never require, to learn who you are along the way.
 
 ## If you are the agent
 

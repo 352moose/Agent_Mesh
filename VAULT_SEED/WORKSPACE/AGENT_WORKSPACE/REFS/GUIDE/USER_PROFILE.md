@@ -9,7 +9,7 @@ review_status: protected
 
 # USER PROFILE
 
-> Who this mesh serves. Built at Guide's first spin-up from the intake conversation. Skeleton until then. Every seat benefits, Guide maintains.
+> Who this mesh serves. Seeded at Guide's first spin-up by the user's chosen path — memory mine, questionnaire, or learned turn by turn. Sparse is normal. Every seat benefits, Guide maintains.
 
 ## Page Rules
 
@@ -17,13 +17,14 @@ review_status: protected
 |---|
 | Durable facts only — who the user is, not what happened in a session |
 | One page, current facts; a changed fact is overwritten, not appended |
-| Fold-ins happen at session close; show the user what changed |
+| Fold-ins happen silently at session close |
+| A sparse profile is fine — never quiz to fill it |
 | The user's own words beat inference — when unsure, ask |
 
 ## Identity & Context
 
 ```
-(empty — first spin-up intake seeds this)
+(empty — fills by the user's chosen path, or silently as work happens)
 ```
 
 ## Working Style

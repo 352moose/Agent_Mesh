@@ -4,12 +4,12 @@ from: MESH SEED
 to: GUIDE
 created: 2026/08/05
 review_status: pending_review
-title: First spin-up — user intake
+title: First spin-up — welcome + guided setup
 ---
 
 # FIRST SPIN UP PROCEDURE — GUIDE
 
-> One-time intake, fired by the first-run gate in SPIN UP. Output: registered triggers, a filled USER_PROFILE, and a user who knows how the mesh works. When the profile is live, flip this file to `review_status: sweep` — the gate never fires again.
+> One-time guided setup, fired by the first-run gate in SPIN UP. Output: registered triggers, a profile path chosen (filled now or populating silently turn by turn), and a user who knows how the mesh works. When the sequence completes, flip this file to `review_status: sweep` — the gate never fires again.
 
 ---
 
@@ -22,17 +22,32 @@ title: First spin-up — user intake
 | Work   | Unknown mechanism?      | not sure how THIS platform persists instructions across sessions = web-search your own platform's official documentation (memory feature, custom instructions, agent configuration files) — never improvise or assume it saved                                                                                            |
 | Gate   | Confirm persistence     | read the saved registry back to the user verbatim; state WHERE it was saved (which mechanism) and confirm it survives a fresh session. No native save mechanism = show the user the `START_HERE/` folder (`../../../../../START_HERE/`) instead — every fetch line is a file named exactly what they say; the tutorial still runs          |
 | Work   | Trigger tutorial        | teach the user the triggers: each fetch line, what seat it summons, what a fetch does (load + run spin-up, never summarize); then run one live test — the test phrase is **"fetch me the guide"**, and only that: the user summons the seat already in the chair, proving the trigger fires without pulling the session to another seat mid-intake |
-| Work   | Mine saved memory       | before asking anything — if this assistant holds saved memory about the user, mine it; intake questions cover only what memory cannot answer                                                                                                                                                                              |
-| Work   | No memory to mine?      | this assistant holds no saved memory = hand the user the Memory Export Block below to paste into whichever assistant DOES hold it; they save the reply to this desk as `USER_MEMORY_EXPORT.md`; mine it in memory's place, fold durable facts into USER_PROFILE, then flag the export `sweep` like any absorbed desk file |
-| Work   | Intake conversation     | ask the user, one question at a time, following the USER_PROFILE skeleton: who they are and their context; how they like to work (pace, depth, autonomy vs check-ins); preferences and pet peeves; domains and interests; current goals                                                                                   |
-| Work   | Fill the profile        | fill the skeleton at `../../../REFS/GUIDE/USER_PROFILE.md` — page rules live on that file; their words over inference; stamp `updated`                                                                                                                                                                                    |
-| Gate   | User review             | walk the user through the profile section by section; adjust; user approves                                                                                                                                                                                                                                               |
+| Gate   | Profile ask             | deliver the Profile Ask below into chat verbatim, then wait — the user picks a door; never press: a decline is door 3, not an objection to overcome                                                                                                                                                                       |
+| Work   | Door 1 — memory mine    | this assistant holds saved memory about the user = mine it; none here = hand the user the Memory Export Block below to paste into whichever assistant DOES hold it; they save the reply to this desk as `USER_MEMORY_EXPORT.md`; mine it in memory's place, then flag the export `sweep` like any absorbed desk file      |
+| Work   | Door 2 — questionnaire  | ask the user, one question at a time, following the USER_PROFILE skeleton: who they are and their context; how they like to work (pace, depth, autonomy vs check-ins); preferences and pet peeves; domains and interests; current goals                                                                                   |
+| Work   | Door 3 — learn as we go | write nothing now — the profile populates silently, turn by turn, via the Capture step in the boot's core loop; log the choice to session memory and move straight to the tour                                                                                                                                            |
+| Work   | Fill the profile        | doors 1–2 only: fill the skeleton at `../../../REFS/GUIDE/USER_PROFILE.md` — page rules live on that file; their words over inference; stamp `updated`                                                                                                                                                                    |
+| Gate   | User review             | doors 1–2 only: walk the user through the profile section by section; adjust; user approves                                                                                                                                                                                                                               |
 | Work   | Tour — the important bits | seats and their fetch lines, the desks, how work flows, where the user's own desk is — from MESH_GUIDE (`../../../REFS/GUIDE/MESH_GUIDE.md`). Lead with what the user needs on day one                                                                                                                                  |
 | Work   | Tour — layer by layer   | then walk the tree top-down, one layer per turn: present a single stop — its place in the START_HERE folder map, its README read as that stop's tour card — then stop and wait for the user before moving on; never compress the walk into one message — desks, REFS shelves, project tiers, memory, the operator's rooms, the trash |
 | Gate   | Tour check              | user confirms they know the fetch lines and where their own desk is                                                                                                                                                                                                                                                       |
 | Work   | Close out               | flip this file to `review_status: sweep`                                                                                                                                                                                                                                                                                  |
 | Report | Confirm                 | *Triggers registered. User profile live at REFS. First spin-up complete.*                                                                                                                                                                                                                                                 |
 | Report | Hand off                | recommend session close; after close, the user says **"fetch me the overseer"** in a fresh session — workspace setup is that seat's first spin-up                                                                                                                                                                         |
+
+---
+
+## Profile Ask
+
+> Deliver verbatim when the sequence reaches the Profile ask gate.
+
+Before the tour, one choice. I keep a lightweight profile of who you are and how you like to work — it makes every seat in the mesh sharper. How it gets filled is entirely your call, and "not now" is a fine answer. Three ways:
+
+1. **Memory mine** — I pull what your assistant already knows about you (or hand you a prompt for the one that does). Fastest, no questions asked.
+2. **Questionnaire** — a handful of short questions, one at a time. You control every answer.
+3. **Learn as we go** — no questions, ever. The profile builds itself from what naturally comes up while we work.
+
+Which suits you?
 
 ---
 

@@ -83,9 +83,9 @@ review_status: protected
 | Load   | ACTIVE           | `../../MEMORY_CARDS/ACTIVE_MEMORY/GUIDE/ACTIVE.md`                                |
 | Load   | Last static card | most recent in `../../MEMORY_CARDS/STATIC_MEMORY/GUIDE/`; none = first run        |
 | Load   | MESH_GUIDE       | `../../../REFS/GUIDE/MESH_GUIDE.md` — the material this seat answers from         |
-| Load   | USER_PROFILE     | `../../../REFS/GUIDE/USER_PROFILE.md` — skeleton = intake not yet run             |
+| Load   | USER_PROFILE     | `../../../REFS/GUIDE/USER_PROFILE.md` — skeleton or sparse = normal; populates silently over time |
 | Work   | Check desk       | read every file on own desk, oldest first, frontmatter first                      |
-| Gate   | First run        | `FIRST_SPIN_UP_PROCEDURE.md` on desk = run it now (user intake)                   |
+| Gate   | First run        | `FIRST_SPIN_UP_PROCEDURE.md` on desk = run it now (guided setup)                  |
 | Report | Status           | *Guide online. [N] desk items, open work, context %.*                             |
 | Fork   | Await direction  | do not begin work until the user gives direction                                  |
 
@@ -116,7 +116,7 @@ context > 75%
 | Phase        | DO                  | Interrogatives                                                                     |
 | ------------ | ------------------- | ------------------------------------------------------------------------------------|
 | Confirmation | Session close       | user has confirmed "session close"                                                   |
-| Work         | Update USER_PROFILE | fold in flagged durable facts per its page rules; show the user what changed         |
+| Work         | Update USER_PROFILE | fold in flagged durable facts per its page rules — silently, no ceremony             |
 | Work         | Update MESH_GUIDE   | if a seat, channel, or convention changed this session — stamp `updated`             |
 | Work         | Update ACTIVE       | log entry + working notes if new patterns found — per doc rules                      |
 | Work         | Desk hygiene        | flip absorbed desk files to `review_status: sweep`                                   |
