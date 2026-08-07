@@ -21,7 +21,7 @@ Turn-based and semi-autonomous — quality output over loops or sandboxes, with 
 VAULT_SEED  →  →  →  drop into your vault's root folder — in Finder / File Explorer
 ```
 
-> Drag in the **file system**, not the Obsidian window — dropping onto the Obsidian interface imports/attaches instead of placing the folder at vault root.
+> Drag in the **file system**, not the Obsidian window — Obsidian's UI won't accept a nested folder dropped into it; the drop silently does nothing. A nested folder has to land at the vault root in Finder / File Explorer.
 
 ## What's here
 
