@@ -1,15 +1,16 @@
 # AGENT MESH
 
-A self-organizing AI workspace, all in plain markdown. Point any modern AI assistant at this folder and it builds itself into a small organized team: one role learns who you are and how you work, one keeps the workspace in order, one plans and runs your projects, one writes the code. They remember between sessions and hand work to each other as notes in folders.
+A self-organizing AI workspace, all self contained in plain markdown. Point any modern AI assistant at this folder and it builds itself into a small organized team: one role learns who you are and how you work, one keeps the workspace in order, one plans and runs your projects, one writes the code. They work with you in scoped, step turns, remember between sessions and hand work to each other as notes in folders.
 
-Turn-based and semi-autonomous — quality output over loops or sandboxes, with security-first build practices from the first project. No installs, nothing to run: just files, readable by whatever assistant you already use.
+Turn-based and semi-autonomous — quality output over loops or sandboxes, with security-first build practices baked in, mined from official documents on time of first spin up. No installs, (minus a few crontab scripts) that manage the index and trash cadence, built by the overseers first iteration on your machine using what ever permission gates you permit it to use.
 
 ## Quick start
 
 1. Get this folder onto your machine.
 2. Point your assistant at `VAULT_SEED/START_HERE/START_HERE.md` and tell it to **execute this document** (say *execute* — an agent told to *read* will read, nod, and wait).
-3. The guide will spin up and walk you through the vault (intake is skippable). After the tour it will prompt a session close — this is the first memory cycle, and it seeds the standard. After the close, you'll be prompted to spin up the overseer using the trigger phrases it teaches you.
-4. The overseer does the heavy lifting: setting up the workspace.
+3. The guide will spin up and walk you through the vault (intake is skippable). After the tour it will prompt a session close — this is the first memory cycle, and it seeds the standard. After the close, you'll be prompted to open a new session ( ensure the model is pointed at the same directory) spin up the overseer using the trigger phrases it teaches you.
+4. The overseer does the heavy lifting: setting up the workspace, and crons. it keeps a protocol to build new agents, ask it to build a new agent and it will build all the fixtures while maintaining the standards across the mesh.
+5. after the overseer is done setting up, it will hand you off to the director who will walk you through the build cadence.
 
 ## What's here
 
