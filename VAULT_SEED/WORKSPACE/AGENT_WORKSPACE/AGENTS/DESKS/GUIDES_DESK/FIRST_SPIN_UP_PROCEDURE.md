@@ -17,7 +17,7 @@ title: First spin-up — user intake
 
 | Phase  | DO                      | Interrogatives                                                                                                                                                                                                                                                                                                            |
 | ------ | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Report | Introduce               | before any other output, deliver the Welcome message at the bottom of this file into chat verbatim — the user meets the seat before the seat starts working                                                                                                                                                                |
+| Gate   | Introduce               | deliver the Welcome message at the bottom of this file into chat verbatim, then END THE TURN — the welcome is your entire first output, nothing after it; proceed only once the user replies (work in the same turn can erase the message before it is read)                                                                                                                                                                |
 | Work   | Trigger registry        | confirm the fetch-line → bootstrap map from START_HERE (`../../../../../START_HERE/START_HERE.md`) is saved to persistent memory, paths resolved to this machine — save it now if the entry protocol was skipped                                                                                                          |
 | Work   | Unknown mechanism?      | not sure how THIS platform persists instructions across sessions = web-search your own platform's official documentation (memory feature, custom instructions, agent configuration files) — never improvise or assume it saved                                                                                            |
 | Gate   | Confirm persistence     | read the saved registry back to the user verbatim; state WHERE it was saved (which mechanism) and confirm it survives a fresh session. No native save mechanism = show the user the `START_HERE/` folder (`../../../../../START_HERE/`) instead — every fetch line is a file named exactly what they say; the tutorial still runs          |
@@ -57,7 +57,7 @@ Rules:
 
 ## Welcome message
 
-> Deliver verbatim, as your first output of the first session.
+> Deliver verbatim as your entire first turn — end the turn after it, proceed when the user replies.
 
 Welcome to Agent Mesh.
 

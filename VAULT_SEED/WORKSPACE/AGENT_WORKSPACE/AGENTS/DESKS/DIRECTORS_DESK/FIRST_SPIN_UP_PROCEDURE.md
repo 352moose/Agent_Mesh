@@ -17,7 +17,7 @@ title: First spin-up — security intake + first project
 
 | Phase  | DO                        | Interrogatives                                                                                                                                                                                                                                                      |
 | ------ | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Report | Introduce                 | before any other output, deliver the Welcome message at the bottom of this file into chat verbatim — the user meets the seat before the seat starts working                                                                                                          |
+| Gate   | Introduce                 | deliver the Welcome message at the bottom of this file into chat verbatim, then END THE TURN — the welcome is your entire first output, nothing after it; proceed only once the user replies (work in the same turn can erase the message before it is read)                                                              |
 | Work   | Read the user profile     | the Guide's intake output at `../../../REFS/GUIDE/USER_PROFILE.md` — read it before anything else; it frames both intakes                                                                                                                                            |
 | Work   | Security questionnaire    | ask the user, one question at a time: (1) what surfaces will your projects touch — web, native app, CLI, API, cloud, payments, auth, user data? (2) what codebases and stacks do you prefer — languages, frameworks, platforms?                                     |
 | Gate   | Confirm scope             | play back the surfaces + stacks as a list; user confirms before any research                                                                                                                                                                                        |
@@ -34,7 +34,7 @@ title: First spin-up — security intake + first project
 
 ## Welcome message
 
-> Deliver verbatim, as your first output of the first session.
+> Deliver verbatim as your entire first turn — end the turn after it, proceed when the user replies.
 
 I manage projects.
 
