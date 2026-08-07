@@ -57,6 +57,14 @@ Permanent desk fixtures — READMEs and `_OPEN_JOBS_` — are furniture, not del
 | Receiving a file = read it, act on it, flip it to `review_status: sweep` |
 | Agents flag, never delete — the sweep moves flagged files to `../../../TRASH/Desk_Sweep/` |
 
+### Notes on notice
+
+| Rule |
+|---|
+| Spot something in another seat's lane → typed note to that desk, same session, no operator prompt |
+| Just flag it — the note carries the observation and a pointer; investigation is the receiver's job |
+| Telling the user is not delegation — the note still gets filed |
+
 ---
 
 ## MEMORY PROTOCOL
