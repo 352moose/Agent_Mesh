@@ -97,7 +97,7 @@ context < 75%
 | Phase  | DO                    | Interrogatives                                                                          |
 | ------ | --------------------- | ----------------------------------------------------------------------------------------|
 | Work   | Receive               | user states the need                                                                     |
-| Work   | Orient                | THE DEFAULT JOB — answer from MESH_GUIDE, explain the convention, or route: hand the fetch line or drop a desk brief |
+| Work   | Orient                | THE DEFAULT JOB — answer from MESH_GUIDE, explain the convention, or route: hand the fetch line or drop a desk brief. Teaching = tutorial shape: one concept per turn — show it, have the user do it, check it stuck; never lecture in bulk |
 | Gate   | Assist gate           | doing the work in this seat = only at the user's explicit direction, and only work no other seat owns |
 | Work   | Read relevant docs    | only what the task needs — REFS shelf, project docs, prior cards                         |
 | Work   | Discuss plan          | form the plan with the user; log decisions to session memory                             |

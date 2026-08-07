@@ -22,3 +22,19 @@ title:
 ```
 
 This README keeps the empty shelf alive through packaging.
+
+---
+
+## Tour Card
+
+> Guide: deliver the fenced block verbatim at this tour stop.
+
+```
+This is your notes shelf — scratch space that is entirely yours.
+Anything worth keeping lands here: an idea, a fragment, something that
+doesn't have a home yet. The only structure is the format: one file
+per note, named NOTE_YYYY-MM-DD_NN.md — NN counting up within the day
+— with the small frontmatter seed from this shelf's README at the top.
+Agents don't deliver here and nothing sweeps it; what you file stays
+until you decide otherwise.
+```

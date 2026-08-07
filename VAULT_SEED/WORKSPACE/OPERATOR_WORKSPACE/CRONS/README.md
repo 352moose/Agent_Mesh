@@ -55,3 +55,20 @@ The crontab is user-owned, but the user may never have opened Terminal. The agen
 A job is live only when a REAL scheduled tick advances its `LOGS/` stamp. Interactive test runs mask cron failures — never count them as verification. Verification is asynchronous by design: no session ever waits for a tick. Install, record "first tick pending", and move on — whichever session comes next checks the stamp.
 
 **macOS:** cron reading user folders (Documents, Desktop, iCloud paths) hits the TCC privacy boundary and fails with permission errors regardless of code correctness. Grant Full Disk Access to `cron` in System Settings before the first tick, or place the mesh outside protected folders.
+
+---
+
+## Tour Card
+
+> Guide: deliver the fenced block verbatim at this tour stop.
+
+```
+Welcome to the automation room. The mesh keeps a small set of scheduled
+jobs — routine chores that run on a clock instead of inside a chat. The
+seed ships with two: a daily refresh of the master index and an hourly
+sweep that carries flagged desk files to the trash. The Overseer builds
+them during its first setup session, but the schedule is yours: nothing
+runs until you install the crontab, and the Overseer walks you through
+that one step at a time. Three shelves divide the work — SCRIPTS holds
+the jobs, LOGS their run records, HEALTH the at-a-glance status board.
+```
