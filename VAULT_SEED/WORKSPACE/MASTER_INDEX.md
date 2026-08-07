@@ -59,3 +59,23 @@ review_status: protected
 |---|---|
 
 <!-- AUTO:INDEX:END -->
+
+---
+
+## Tour Card
+
+> Guide: deliver the fenced block verbatim at this tour stop.
+
+```
+── Tour Stop — WORKSPACE/MASTER_INDEX.md
+
+This is the master index — the table of contents for everything the
+workspace knows. Every knowledge doc gets a row: its path and a
+one-line description, so you can ask "where does that live?" and get
+an answer without memorizing the folder tree. The best part: you never
+maintain it. A scheduled script rebuilds the rows every day, catching
+new files and moved files on its own, and the agents fill in the
+descriptions as they work. Right now it's mostly empty shelves — as
+your workspace grows, this page grows with it. When you're looking
+for something and don't know where to start, start here.
+```

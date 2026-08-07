@@ -78,3 +78,22 @@ Permanent desk fixtures — READMEs and `_OPEN_JOBS_` — are furniture, not del
 | A seat maintains its own cards, its own desk, and the `protected` fixtures it owns directly; anything owned by another seat = show the diff, wait for user approval |
 | Unsettled decisions land as open items in the owning doc — never guessed prose |
 | Automation is staged by agents but installed and owned by the user, in `../../../OPERATOR_WORKSPACE/` (CRONS, TOOLS) — agents never own scheduled execution |
+
+---
+
+## Tour Card
+
+> Guide: deliver the fenced block verbatim at this tour stop.
+
+```
+── Tour Stop — WORKSPACE/AGENT_WORKSPACE/AGENTS/RULES/
+
+This is the rulebook — the shared set of standing rules every seat in
+the mesh follows, so that no matter which agent you're working with,
+files get named the same way, messages travel the same way, and
+nothing gets lost between them. Here's the good news: it's written
+for the agents, not for you. Every seat reads it when it wakes up and
+holds itself to it — it's their operating manual, not your homework.
+If you ever wonder why the workspace looks so consistent — the same
+tidy shape everywhere you look — this little page is the reason.
+```
