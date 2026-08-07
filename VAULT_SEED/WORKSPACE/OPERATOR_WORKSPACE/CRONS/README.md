@@ -48,10 +48,10 @@ The crontab is user-owned, but the user may never have opened Terminal. The agen
 
 5. **Confirm the install.** The user pastes `crontab -l`; the agent reads the echoed output back and confirms both lines are present.
 
-6. **Verify on a real tick** — per the section below. Interactive test runs never count.
+6. **Close out — verification belongs to a later session.** Never wait for a tick in-session: note "first tick pending" and end the install here. The next session reads `HEALTH/` — a stamp advanced by a real tick = live. Per Verify below.
 
 ## Verify
 
-A job is live only when a REAL scheduled tick advances its `LOGS/` stamp. Interactive test runs mask cron failures — never count them as verification.
+A job is live only when a REAL scheduled tick advances its `LOGS/` stamp. Interactive test runs mask cron failures — never count them as verification. Verification is asynchronous by design: no session ever waits for a tick. Install, record "first tick pending", and move on — whichever session comes next checks the stamp.
 
 **macOS:** cron reading user folders (Documents, Desktop, iCloud paths) hits the TCC privacy boundary and fails with permission errors regardless of code correctness. Grant Full Disk Access to `cron` in System Settings before the first tick, or place the mesh outside protected folders.
