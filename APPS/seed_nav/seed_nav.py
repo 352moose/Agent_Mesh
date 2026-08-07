@@ -21,7 +21,9 @@ from tkinter import ttk
 def system_open(path):
     """Open a file with the platform's native default application."""
     if sys.platform == "darwin":
-        subprocess.Popen(["open", path])
+        # a stock Mac has no app claiming .md — fall back to the default text editor
+        if subprocess.call(["open", path]) != 0:
+            subprocess.call(["open", "-t", path])
     elif os.name == "nt":
         os.startfile(path)  # noqa: B606 — windows native open
     else:
