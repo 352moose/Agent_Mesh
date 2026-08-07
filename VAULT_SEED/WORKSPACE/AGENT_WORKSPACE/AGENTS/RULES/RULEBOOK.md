@@ -23,7 +23,7 @@ review_status: protected
 
 > Agents communicate by typed files on desks — never by relaying chat. Desks live at `../DESKS/[ROLE]S_DESK/`; the human's desk is `../../../OPERATOR_WORKSPACE/DESK/`.
 
-### Frontmatter — every desk-bound file
+### Frontmatter — every file sent to a desk
 
 ```yaml
 ---
@@ -34,6 +34,8 @@ created:           # YYYY/MM/DD
 review_status:     # see lifecycle below
 ---
 ```
+
+Permanent desk fixtures — READMEs and `_OPEN_JOBS_` — are furniture, not deliveries: they carry `scope` + `maintained_by` in place of `from`/`to`, and `review_status: protected`.
 
 ### Naming
 
