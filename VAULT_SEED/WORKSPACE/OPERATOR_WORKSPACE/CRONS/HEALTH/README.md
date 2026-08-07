@@ -18,6 +18,8 @@ title: Cron health board
 > Guide: deliver the fenced block verbatim at this tour stop.
 
 ```
+── Tour Stop — WORKSPACE/OPERATOR_WORKSPACE/CRONS/HEALTH/
+
 This is the status board for your crons — the quick read before anyone
 opens a log. The scripts keep it themselves: one line per job, OK or
 NOT OK, stamped with the last run, plus a one-liner naming the blocker

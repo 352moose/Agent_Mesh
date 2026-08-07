@@ -20,6 +20,8 @@ This README keeps the empty shelf alive through packaging.
 > Guide: deliver the fenced block verbatim at this tour stop.
 
 ```
+── Tour Stop — WORKSPACE/OPERATOR_WORKSPACE/ARCHIVE/BACKUPS/
+
 You've reached your archive — four shelves of cold storage, and this
 one, BACKUPS, is the simplest. When you want a safety copy of
 something, you duplicate the folder in here yourself, on whatever

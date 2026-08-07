@@ -22,6 +22,8 @@ review_status: protected
 > Guide: deliver the fenced block verbatim at this tour stop.
 
 ```
+── Tour Stop — WORKSPACE/AGENT_WORKSPACE/PROJECTS/SIDE_QUESTS/
+
 This is SIDE_QUESTS, the home for small detours — experiments, probes,
 one-off tools, the thing you tried for a day. A side quest travels
 lighter than a real project: it needs a folder and enough notes to

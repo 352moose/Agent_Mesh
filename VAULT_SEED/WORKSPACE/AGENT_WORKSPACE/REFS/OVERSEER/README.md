@@ -23,6 +23,8 @@ review_status: protected
 > Guide: deliver the fenced block verbatim at this tour stop.
 
 ```
+── Tour Stop — WORKSPACE/AGENT_WORKSPACE/REFS/OVERSEER/
+
 This is the Overseer's reference shelf. The Overseer keeps the workspace
 itself — structure, conventions, adding new seats — and this is where its
 standing references accumulate: conformance baselines, audit references,

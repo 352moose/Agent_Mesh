@@ -16,6 +16,8 @@ Python tools store here — `.py` files staged by agents, installed and owned by
 > Guide: deliver the fenced block verbatim at this tour stop.
 
 ```
+── Tour Stop — WORKSPACE/OPERATOR_WORKSPACE/TOOLS/SCRIPTS/
+
 This is the source shelf of the tools room — Python utilities that
 agents stage and you install and own. These are hand-run tools, things
 you invoke when you want them; anything that runs on a clock belongs in

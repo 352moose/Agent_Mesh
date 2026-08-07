@@ -16,6 +16,8 @@ Executables live here — compiled binaries and runnable commands, installed and
 > Guide: deliver the fenced block verbatim at this tour stop.
 
 ```
+── Tour Stop — WORKSPACE/OPERATOR_WORKSPACE/TOOLS/COMMANDS/
+
 This shelf is for executables — compiled binaries and runnable commands
 that end up installed on your machine and owned by you. When a utility
 graduates from a Python script into something you run directly, this is

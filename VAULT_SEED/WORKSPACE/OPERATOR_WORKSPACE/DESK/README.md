@@ -16,6 +16,8 @@ The human's inbox. Agents deliver here — reports, notes, briefs — typed file
 > Guide: deliver the fenced block verbatim at this tour stop.
 
 ```
+── Tour Stop — WORKSPACE/OPERATOR_WORKSPACE/DESK/
+
 Welcome to your desk — the one inbox in the mesh that belongs to you.
 When an agent finishes something you should see — a report, a brief, a
 note — it doesn't paste it into chat and hope; it delivers a typed,

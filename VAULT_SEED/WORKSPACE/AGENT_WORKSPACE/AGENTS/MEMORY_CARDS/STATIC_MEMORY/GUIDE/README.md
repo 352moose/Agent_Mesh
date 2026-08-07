@@ -17,6 +17,8 @@ Guide's session archive. One static card lands here at every session close — c
 > Guide: deliver the fenced block verbatim at this tour stop.
 
 ```
+── Tour Stop — WORKSPACE/AGENT_WORKSPACE/AGENTS/MEMORY_CARDS/STATIC_MEMORY/GUIDE/
+
 This is the Guide's session archive — the third tier of a seat's memory.
 Every seat runs on three layers: an ACTIVE card of standing facts it
 reads at each spin-up, a session scratch file it appends to while you

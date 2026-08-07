@@ -24,6 +24,8 @@ review_status: protected
 > Guide: deliver the fenced block verbatim at this tour stop.
 
 ```
+── Tour Stop — WORKSPACE/AGENT_WORKSPACE/REFS/CLIDE/
+
 This is CLIde's reference shelf — same idea as the Guide's, but on the
 build side. What lands here are references that outlive a single job:
 platform gotchas, toolchain notes, anything one build teaches that the

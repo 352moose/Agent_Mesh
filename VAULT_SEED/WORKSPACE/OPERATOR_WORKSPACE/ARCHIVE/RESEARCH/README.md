@@ -18,6 +18,8 @@ This README keeps the empty shelf alive through packaging.
 > Guide: deliver the fenced block verbatim at this tour stop.
 
 ```
+── Tour Stop — WORKSPACE/OPERATOR_WORKSPACE/ARCHIVE/RESEARCH/
+
 This shelf is the archive's landing zone for investigation work —
 results of deep research, backtesting, and verification are filed here
 once the work is done. It exists so a finished result stays findable

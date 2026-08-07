@@ -22,6 +22,8 @@ review_status: protected
 > Guide: deliver the fenced block verbatim at this tour stop.
 
 ```
+── Tour Stop — WORKSPACE/AGENT_WORKSPACE/PROJECTS/GRAVEYARD/
+
 This is the GRAVEYARD, where a project goes when it ends — and ending
 here is a decision, not a failure. A retired project moves in whole,
 every document intact, because the mesh never deletes its history: what

@@ -30,6 +30,8 @@ This README keeps the empty shelf alive through packaging.
 > Guide: deliver the fenced block verbatim at this tour stop.
 
 ```
+── Tour Stop — WORKSPACE/OPERATOR_WORKSPACE/NOTES/
+
 This is your notes shelf — scratch space that is entirely yours.
 Anything worth keeping lands here: an idea, a fragment, something that
 doesn't have a home yet. The only structure is the format: one file

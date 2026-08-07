@@ -16,6 +16,8 @@ title: Desk sweep destination
 > Guide: deliver the fenced block verbatim at this tour stop.
 
 ```
+── Tour Stop — WORKSPACE/TRASH/Desk_Sweep/
+
 This is where desk mail ends up. When a seat finishes with a file, it
 never deletes it — it flips the file's review_status to sweep and
 leaves it on the desk. An hourly cron, which you install and own during

@@ -23,6 +23,8 @@ review_status: protected
 > Guide: deliver the fenced block verbatim at this tour stop.
 
 ```
+── Tour Stop — WORKSPACE/AGENT_WORKSPACE/REFS/GUIDE/
+
 Welcome to the Guide's reference shelf. Every seat in the mesh has one of
 these — a REFS shelf is where an agent keeps the standing documents it
 works from, as opposed to the memory cards it writes for itself. On this

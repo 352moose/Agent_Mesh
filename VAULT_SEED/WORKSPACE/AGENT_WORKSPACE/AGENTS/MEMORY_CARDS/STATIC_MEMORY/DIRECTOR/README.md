@@ -17,6 +17,8 @@ Director's session archive. One static card lands here at every session close �
 > Guide: deliver the fenced block verbatim at this tour stop.
 
 ```
+── Tour Stop — WORKSPACE/AGENT_WORKSPACE/AGENTS/MEMORY_CARDS/STATIC_MEMORY/DIRECTOR/
+
 Same kind of shelf, the Director's seat. Every planning session ends the
 same way: the Director distills its running scratch file into one dated
 static card — the decisions made, the step it dispatched, what's still

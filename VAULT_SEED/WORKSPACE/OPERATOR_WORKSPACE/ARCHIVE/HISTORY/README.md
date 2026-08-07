@@ -18,6 +18,8 @@ This README keeps the empty shelf alive through packaging.
 > Guide: deliver the fenced block verbatim at this tour stop.
 
 ```
+── Tour Stop — WORKSPACE/OPERATOR_WORKSPACE/ARCHIVE/HISTORY/
+
 This shelf of your archive holds history — records of things that
 happened, whether world events, personal records, or anything else
 worth a dated account. It starts flat on purpose: subfolders appear as

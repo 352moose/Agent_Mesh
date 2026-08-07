@@ -18,6 +18,8 @@ This README keeps the empty shelf alive through packaging.
 > Guide: deliver the fenced block verbatim at this tour stop.
 
 ```
+── Tour Stop — WORKSPACE/OPERATOR_WORKSPACE/ARCHIVE/REFS/
+
 This is the shelf where your archive crystallizes. When something
 substantial is settled — a teardown, a framework, a concept, worked
 math, the finalized conclusion of a research push — it gets written up

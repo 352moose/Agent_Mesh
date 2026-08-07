@@ -17,6 +17,8 @@ The Overseer's inbox. Typed files land here per the RULEBOOK desk protocol — r
 > Guide: deliver the fenced block verbatim at this tour stop.
 
 ```
+── Tour Stop — WORKSPACE/AGENT_WORKSPACE/AGENTS/DESKS/OVERSEERS_DESK/
+
 This is the Overseer's desk — the inbox for the seat that maintains the
 mesh itself. Same shape as the other desks: typed files arrive, the
 Overseer reads them at spin-up, acts, and flags them for the sweep.

@@ -23,6 +23,8 @@ review_status: protected
 > Guide: deliver the fenced block verbatim at this tour stop.
 
 ```
+── Tour Stop — WORKSPACE/AGENT_WORKSPACE/REFS/DIRECTOR/
+
 This is the Director's reference shelf — the standing documents the
 planning seat works from. Its anchor is SECURITY_CHECKLIST: at the
 Director's first spin-up you answer a short security questionnaire, and

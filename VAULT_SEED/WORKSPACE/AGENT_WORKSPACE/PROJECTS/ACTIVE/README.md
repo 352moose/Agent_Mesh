@@ -23,6 +23,8 @@ review_status: protected
 > Guide: deliver the fenced block verbatim at this tour stop.
 
 ```
+── Tour Stop — WORKSPACE/AGENT_WORKSPACE/PROJECTS/ACTIVE/
+
 This is ACTIVE — the mesh's default job list. Every project being built
 right now lives here as one folder, and the folder's name is the
 project's name, so listing this folder answers "what are we working on."

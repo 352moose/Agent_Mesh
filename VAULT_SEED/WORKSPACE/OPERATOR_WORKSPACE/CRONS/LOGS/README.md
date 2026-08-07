@@ -18,6 +18,8 @@ title: Cron logs
 > Guide: deliver the fenced block verbatim at this tour stop.
 
 ```
+── Tour Stop — WORKSPACE/OPERATOR_WORKSPACE/CRONS/LOGS/
+
 Every scheduled run leaves its record here — one log file per cron, a
 dated stamp for each run, success or failure, errors written out in
 full. The scripts write these themselves; you and the agents only read.

@@ -63,6 +63,8 @@ A job is live only when a REAL scheduled tick advances its `LOGS/` stamp. Intera
 > Guide: deliver the fenced block verbatim at this tour stop.
 
 ```
+── Tour Stop — WORKSPACE/OPERATOR_WORKSPACE/CRONS/
+
 Welcome to the automation room. The mesh keeps a small set of scheduled
 jobs — routine chores that run on a clock instead of inside a chat. The
 seed ships with two: a daily refresh of the master index and an hourly

@@ -16,6 +16,8 @@ title: Cron scripts
 > Guide: deliver the fenced block verbatim at this tour stop.
 
 ```
+── Tour Stop — WORKSPACE/OPERATOR_WORKSPACE/CRONS/SCRIPTS/
+
 This shelf holds the jobs themselves — one self-contained Python script
 per cron, built by the Overseer from the manual one level up. It starts
 empty and fills during workspace setup. Once installed, your crontab
