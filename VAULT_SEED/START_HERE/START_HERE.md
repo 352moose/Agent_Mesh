@@ -32,7 +32,7 @@ You are stateless with respect to this folder — it assumes nothing about you e
 
    No persistent memory to save into? The registry is also built into the structure: every fetch line is a file sitting beside this one, named exactly what the user says. When the user speaks a trigger you do not recognize, look in this folder — open the file with that name and follow it.
 
-   A fetch means: load the bootstrap and execute its spin-up — never just summarize it. Spin-up in this mesh always includes checking your own desk; every seat's desk already holds its `FIRST_SPIN_UP_PROCEDURE.md`, so an agent's first instructions are waiting where its work will always arrive.
+   A fetch means: load the bootstrap and execute its spin-up — never just summarize it. Spin-up in this mesh always includes checking your own desk; each desk-holding seat's desk already holds its `FIRST_SPIN_UP_PROCEDURE.md`, so an agent's first instructions are waiting where its work will always arrive. The one exception is CLIde, the coding seat — it keeps no desk; its first job arrives as the Director's first action prompt, inside the project itself.
 
 4. **Drop your cold-start report on the overseer's desk.** Write one note into `../WORKSPACE/AGENT_WORKSPACE/AGENTS/DESKS/OVERSEERS_DESK/` — your seat, the date, confirmation the trigger registry is saved, and anything load-bearing you already know about your user. It will sit beside that seat's own first-spin procedure, waiting for the Overseer's first session. This is the mesh's first desk exchange: agents here communicate by typed files on desks, not by relaying chat.
 

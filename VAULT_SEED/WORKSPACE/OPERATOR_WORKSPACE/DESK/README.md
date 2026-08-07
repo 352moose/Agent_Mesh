@@ -22,8 +22,9 @@ Welcome to your desk — the one inbox in the mesh that belongs to you.
 When an agent finishes something you should see — a report, a brief, a
 note — it doesn't paste it into chat and hope; it delivers a typed,
 dated file here, in the same format as anything on an agent's desk.
-Your side is simple: read what lands, and once you've absorbed it,
-flip its review_status to sweep — the sweep clears it away, so the
-desk stays a live inbox instead of a pile. If a file is sitting here,
-it's waiting on you.
+Your side is simple: read what lands, and when you're done, mark it
+for the sweep — every delivery carries a small status line at the
+top, and changing it to "sweep" tells the housekeeping pass to carry
+the file away on its own. That's what keeps this a live inbox
+instead of a pile. If a file is sitting here, it's waiting on you.
 ```

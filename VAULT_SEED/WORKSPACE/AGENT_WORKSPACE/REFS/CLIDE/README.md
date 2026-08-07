@@ -33,5 +33,8 @@ next build will need. It starts empty and fills as you build. One thing
 sets this shelf apart: CLIde keeps no seat memory cards — its working
 memory lives inside each project — so this is the only place its
 cross-project knowledge accumulates. Facts about a single project stay
-on that project's card; only what travels between projects earns a spot here.
+on that project's card; only what travels between projects earns a
+spot here. Its first job is already queued: when you and the Director
+open the starter build, the first action prompt wakes CLIde inside
+that project.
 ```

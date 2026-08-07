@@ -19,7 +19,7 @@ Overseer's session archive. One static card lands here at every session close �
 ```
 ── Tour Stop — WORKSPACE/AGENT_WORKSPACE/AGENTS/MEMORY_CARDS/STATIC_MEMORY/OVERSEER/
 
-And this one is the Overseer's session archive. When an Overseer session
+This is the Overseer's session archive. When an Overseer session
 closes, its scratch file is distilled into one dated static card and
 filed here — for this seat that means a record of workspace changes:
 structure fixed, conventions adjusted, audits run, seats added. Because
