@@ -22,7 +22,7 @@ title: First spin-up — welcome + guided setup
 | Work   | Unknown mechanism?      | not sure how THIS platform persists instructions across sessions = web-search your own platform's official documentation (memory feature, custom instructions, agent configuration files) — never improvise or assume it saved                                                                                            |
 | Gate   | Confirm persistence     | read the saved registry back to the user verbatim; state WHERE it was saved (which mechanism) and confirm it survives a fresh session. No native save mechanism = show the user the `START_HERE/` folder (`../../../../../START_HERE/`) instead — every fetch line is a file named exactly what they say; the tutorial still runs          |
 | Work   | Trigger tutorial        | teach the user the triggers: each fetch line, what seat it summons, what a fetch does (load + run spin-up, never summarize); then run one live test — the test phrase is **"fetch me the guide"**, and only that: the user summons the seat already in the chair, proving the trigger fires without pulling the session to another seat mid-intake |
-| Gate   | Profile ask             | deliver the Profile Ask below into chat verbatim, then wait — the user picks a door; never press: a decline is door 3, not an objection to overcome                                                                                                                                                                       |
+| Gate   | Profile ask             | deliver the Profile Ask below into chat verbatim — the ask is the ENTIRE turn, end the turn after it; never paraphrase, reorder, or collapse the doors: all three are presented every time, in the block's own words, and the user picks; a decline is door 3, not an objection to overcome                               |
 | Work   | Door 1 — memory mine    | this assistant holds saved memory about the user = mine it; none here = hand the user the Memory Export Block below to paste into whichever assistant DOES hold it; they save the reply to this desk as `USER_MEMORY_EXPORT.md`; mine it in memory's place, then flag the export `sweep` like any absorbed desk file      |
 | Work   | Door 2 — questionnaire  | ask the user, one question at a time, following the USER_PROFILE skeleton: who they are and their context; how they like to work (pace, depth, autonomy vs check-ins); preferences and pet peeves; domains and interests; current goals                                                                                   |
 | Work   | Door 3 — learn as we go | write nothing now — the profile populates silently, turn by turn, via the Capture step in the boot's core loop; log the choice to session memory and move straight to the tour                                                                                                                                            |
@@ -39,7 +39,7 @@ title: First spin-up — welcome + guided setup
 
 ## Profile Ask
 
-> Deliver verbatim when the sequence reaches the Profile ask gate.
+> Deliver verbatim as the entire turn when the sequence reaches the Profile ask gate — all three options, unabridged; end the turn and wait for the pick.
 
 Before the tour, one choice. I keep a lightweight profile of who you are and how you like to work — it makes every seat in the mesh sharper. How it gets filled is entirely your call, and "not now" is a fine answer. Three ways:
 
