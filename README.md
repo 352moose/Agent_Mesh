@@ -9,7 +9,7 @@ Turn-based and semi-autonomous — quality output over loops or sandboxes, with 
 | Step | Do | Gotcha |
 |---|---|---|
 | 1 | Get this folder onto your machine. | — |
-| 2 | Point your assistant at `VAULT_SEED/START_HERE/START_HERE.md` and tell it to **execute this document**. | Say *execute* — an agent told to *read* will read, nod, and wait. |
+| 2 | Point your assistant at `VAULT_SEED/START_HERE/START_HERE.md` and tell it to **execute this document**. | Say *execute* — an agent told to *read* will read, nod, and wait. The assistant needs real file access: CLI assistants have it natively; chat/desktop assistants (e.g. running inside Obsidian) reach the folder through an MCP file server — set that up first, pointed at the vault root. |
 | 3 | The guide spins up and walks you through the vault, then prompts a session close — the first memory cycle, which seeds the standard. | Intake is skippable. |
 | 4 | Open a new session and spin up the overseer with the trigger phrase the guide taught you. | Make sure the new session is pointed at the same folder. |
 | 5 | The overseer does the heavy lifting: workspace setup and crons, under whatever permission gates you grant it. It also keeps a protocol for building new agents — ask for one, and it builds the fixtures while holding the standards across the mesh. | — |
@@ -18,8 +18,10 @@ Turn-based and semi-autonomous — quality output over loops or sandboxes, with 
 ## Obsidian install
 
 ```
-VAULT_SEED  →  →  →  drag & drop directly into vault
+VAULT_SEED  →  →  →  drop into your vault's root folder — in Finder / File Explorer
 ```
+
+> Drag in the **file system**, not the Obsidian window — dropping onto the Obsidian interface imports/attaches instead of placing the folder at vault root.
 
 ## What's here
 
