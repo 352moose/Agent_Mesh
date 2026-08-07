@@ -12,6 +12,12 @@ Turn-based and semi-autonomous — quality output over loops or sandboxes, with 
 4. The overseer does the heavy lifting: setting up the workspace and crons. It also keeps a protocol for building new agents — ask for one, and it builds all the fixtures while holding the standards across the mesh.
 5. Once setup is done, the overseer hands you off to the director, who walks you through the build cadence.
 
+## Obsidian install
+
+```
+VAULT_SEED  →  →  →  drag & drop directly into vault
+```
+
 ## What's here
 
 | Path | What it is |
