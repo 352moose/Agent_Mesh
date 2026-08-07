@@ -3,7 +3,7 @@ type: reference
 scope: GUIDE
 maintained_by: GUIDE
 created: 2026/08/05
-updated: 2026/08/05
+updated: 2026/08/07
 review_status: protected
 ---
 
@@ -23,7 +23,7 @@ review_status: protected
 
 ## What this is
 
-A file-based multi-agent workspace. Each agent ("seat") is spun up by a fetch line, does one kind of work, and communicates with other seats through typed files on desks. Memory lives in files, so any session can pick up where the last one left off.
+A file-based multi-agent workspace. Each agent ("seat") is spun up by a fetch line and does one kind of work. Project work — the primary workflow — lives in project folders that every seat reads and writes; desks carry the one-offs: typed notes, reports, and work orders that don't fit a project shape. Memory lives in files, so any session can pick up where the last one left off.
 
 A fresh mesh opens with three first spin-ups, in order: Guide (who you are), then Overseer (workspace setup), then Director (your first project). Each seat's first procedure waits on its desk and hands you to the next.
 
@@ -37,6 +37,8 @@ A fresh mesh opens with three first spin-ups, in order: Guide (who you are), the
 | OVERSEER   | `fetch me the overseer`   | Workspace keeper. Audits structure, keeps conventions consistent, intake seat    |
 
 ## How build work flows
+
+A project is one folder under `../../PROJECTS/ACTIVE/` — its plans, prompts, reports, and each seat's working notes all live inside it. The loop:
 
 1. **DIRECTOR** discusses one step with you, then writes `ACTION_PROMPT.md` in the project's BUILD folder.
 2. You fetch **CLIDE** in a terminal; it executes that prompt with you and hands you a live launch to verify.
@@ -56,7 +58,8 @@ One step at a time, verified on your real workflow before it counts.
 
 ## Conventions in one minute
 
-- **Desks** (`../../AGENTS/DESKS/`): typed files are how seats talk. Frontmatter says who it's from, who it's for, and its `review_status`.
+- **Projects** (`../../PROJECTS/`): the primary workflow home — one folder per project, tiered ACTIVE / PARKED / SIDE_QUESTS / GRAVEYARD.
+- **Desks** (`../../AGENTS/DESKS/`): for one-offs — notes, reports, and work orders that don't fit a project shape. Frontmatter says who it's from, who it's for, and its `review_status`.
 - **review_status lifecycle**: `pending_review` (needs the receiver's read) → `sweep` (absorbed, scheduled for removal) → gone. `protected` = permanent fixture, never swept.
 - **Memory cards** (`../../AGENTS/MEMORY_CARDS/`): each seat has ACTIVE (standing facts), a session scratch file, and static session cards. CLIde is the exception — its memory is tied to each project.
 - **Paths are relative** — every address in every file resolves from that file's location. Nothing machine-specific, so the mesh survives being moved.
