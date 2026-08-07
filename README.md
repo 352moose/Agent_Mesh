@@ -6,11 +6,14 @@ Turn-based and semi-autonomous — quality output over loops or sandboxes, with 
 
 ## Quick start
 
-1. Get this folder onto your machine.
-2. Point your assistant at `VAULT_SEED/START_HERE/START_HERE.md` and tell it to **execute this document** (say *execute* — an agent told to *read* will read, nod, and wait).
-3. The guide will spin up and walk you through the vault (intake is skippable). After the tour it will prompt a session close — this is the first memory cycle, and it seeds the standard. After the close, you'll be prompted to open a new session (make sure the assistant is pointed at the same folder) and spin up the overseer using the trigger phrases it teaches you.
-4. The overseer does the heavy lifting: setting up the workspace and crons. It also keeps a protocol for building new agents — ask for one, and it builds all the fixtures while holding the standards across the mesh.
-5. Once setup is done, the overseer hands you off to the director, who walks you through the build cadence.
+| Step | Do | Gotcha |
+|---|---|---|
+| 1 | Get this folder onto your machine. | — |
+| 2 | Point your assistant at `VAULT_SEED/START_HERE/START_HERE.md` and tell it to **execute this document**. | Say *execute* — an agent told to *read* will read, nod, and wait. |
+| 3 | The guide spins up and walks you through the vault, then prompts a session close — the first memory cycle, which seeds the standard. | Intake is skippable. |
+| 4 | Open a new session and spin up the overseer with the trigger phrase the guide taught you. | Make sure the new session is pointed at the same folder. |
+| 5 | The overseer does the heavy lifting: workspace setup and crons, under whatever permission gates you grant it. It also keeps a protocol for building new agents — ask for one, and it builds the fixtures while holding the standards across the mesh. | — |
+| 6 | Once setup is done, the overseer hands you off to the director, who walks you through the build cadence. | — |
 
 ## Obsidian install
 
