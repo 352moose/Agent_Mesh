@@ -29,4 +29,12 @@ and so on. Say the phrase to any agent, even in a brand-new session,
 and it steps into that seat and picks up where things left off. You
 won't visit this folder much after today, but it's good to know the
 doorbell still works.
+
+One more thing worth knowing before we walk: this vault manages
+token costs by spending a little up front to save every session
+after. Cards like this one are written once and delivered ready-made
+instead of re-explained, session notes get boiled down into one
+small card instead of replayed, and routine chores run as scheduled
+scripts that cost no agent time at all. The structure you're about
+to tour is why day-to-day sessions stay lean.
 ```
