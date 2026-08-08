@@ -20,19 +20,18 @@ review_status: protected
 ── Tour Stop — WORKSPACE/AGENT_WORKSPACE/AGENTS/MEMORY_CARDS/SESSION_MEMORY/
 
 This shelf holds the session notebooks — one folder per seat,
-scratch notes for the session happening right now. While a seat
-works it jots things down as they happen: the Guide keeps the
-play-by-play of your work together, the Overseer notes what it
-checked, fixed, and flagged, the Director records the calls it
-makes, the work it sends out, and the results that come back.
+scratch notes for the session happening right now. Nothing here is
+built to last: at close, each seat distills its notebook into one
+dated summary card, files it on its archive shelf, and wipes the
+notebook clean. A nearly-empty notebook is a good sign — it means
+the last session closed properly.
 
-Nothing here is built to last. When a session closes, the seat
-distills its notebook into one dated summary card, files it on its
-archive shelf, and wipes the notebook clean for next time. So a
-nearly-empty notebook is a good sign — it means the last session
-closed properly. Mid-session, it's the live record of the work.
+Three seats keep a notebook here: the Guide (the play-by-play of
+your work together), the Overseer (what it checked, fixed, and
+flagged), the Director (calls made, work sent out, results back).
+Each folder tells the fuller story of what its notebook holds.
 
-CLIde keeps no notebook here either — it's a single-shot seat: its
-record of a work cycle is the ACTION_REPORT it leaves in the
-project folder before it stops.
+CLIde keeps no notebook — it's a single-shot seat: its record of a
+work cycle is the ACTION_REPORT it leaves in the project folder
+before it stops.
 ```

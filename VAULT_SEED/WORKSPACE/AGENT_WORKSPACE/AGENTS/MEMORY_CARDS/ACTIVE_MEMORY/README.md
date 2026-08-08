@@ -24,17 +24,14 @@ reads first thing at every spin-up, one folder per seat. Each card
 stays small on purpose: the seat trims it as it goes, keeping what
 still earns its place and letting the rest fall away.
 
-The Guide's card carries what makes working together smoother —
-habits that work, habits to avoid, a short log of recent sessions.
-The Overseer's carries what a caretaker needs on hand: conventions
-it's watching, recurring issues, lessons from past audits. The
-Director's is what makes a fresh Director feel like the same one
-you worked with yesterday — standing decisions, the state of things
-in flight, patterns worth keeping.
+Three seats keep a card here: the Guide (how you work together, and
+a short log of recent sessions), the Overseer (what the workspace
+caretaker is watching), the Director (standing decisions and the
+state of things in flight). Each folder tells the fuller story of
+what lands there and why it matters.
 
-One seat is missing on purpose: CLIde keeps no folder here. Its
+One seat is missing on purpose: CLIde keeps no folder here — its
 active card lives inside each project, right beside the code it's
-about. None of these cards are homework for you — every seat
-maintains its own before each session closes. Open any of them
-whenever you want to see what that seat is carrying forward.
+about. None of this is homework for you; every seat maintains its
+own card before each session closes.
 ```
