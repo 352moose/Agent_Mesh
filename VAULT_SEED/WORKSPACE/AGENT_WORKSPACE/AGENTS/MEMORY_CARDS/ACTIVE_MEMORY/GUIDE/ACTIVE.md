@@ -19,9 +19,9 @@ review_status: protected
 | --------- | -------------------------------------------------------------------------- | ------------------------------------------------ |
 | ≤ 20 rows | one row per room — address + one line, formed at first close from the tour | consult silently at spin up; edit as rooms change |
 
-| Address                 | One line                                  |
-| ----------------------- | ----------------------------------------- |
-| {path from WORKSPACE/}  | {what lives there — when to route here}   |
+| Address                                                    | One line                                                              |
+| ---------------------------------------------------------- | --------------------------------------------------------------------- |
+| `AGENT_WORKSPACE/AGENTS/MEMORY_CARDS/ACTIVE_MEMORY/GUIDE/ACTIVE.md` | this card — the silent map; read first at spin up, grown at every close |
 
 ---
 
