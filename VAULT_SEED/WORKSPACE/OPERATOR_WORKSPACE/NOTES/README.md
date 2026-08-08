@@ -37,6 +37,6 @@ Anything worth keeping lands here: an idea, a fragment, something that
 doesn't have a home yet. The only structure is the format: one file
 per note, named NOTE_YYYY-MM-DD_NN.md — NN counting up within the day
 — with the small frontmatter seed from this shelf's README at the top.
-Agents don't deliver here and nothing sweeps it; what you file stays
-until you decide otherwise.
+Agents deliver here only when you tell them to, and nothing sweeps
+it; what you file stays until you decide otherwise.
 ```
