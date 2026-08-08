@@ -27,7 +27,7 @@ review_status: protected
 
 ## Working Notes
 
-- New seat requested → Overseer's lane: `../../../TEMPLATES/BOOTSTRAP_template/New_agent_build.md` — loaded and run with the user, never freehand.
+- New seat requested → Overseer's lane: `../../../PROTOCOLS/OVERSEER/New_agent_build.md` — loaded and run with the user, never freehand.
 
 ### Patterns
 

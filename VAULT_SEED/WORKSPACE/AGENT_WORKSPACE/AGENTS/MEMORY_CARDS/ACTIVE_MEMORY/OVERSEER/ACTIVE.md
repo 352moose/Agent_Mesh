@@ -15,7 +15,7 @@ review_status: protected
 
 ## Working Notes
 
-- New seat requested → load `../../../TEMPLATES/BOOTSTRAP_template/New_agent_build.md` and run it with the user — never build a boot freehand.
+- New seat requested → load `../../../PROTOCOLS/OVERSEER/New_agent_build.md` and run it with the user — never build a boot freehand.
 - Cron work (staging, verifying, MASTER_INDEX) → load the manual first: `../../../../../OPERATOR_WORKSPACE/CRONS/README.md`; LOGS and HEALTH are script-owned, read-only.
 
 ### Patterns

@@ -58,8 +58,8 @@ Only after the interview is settled end to end:
 
 | Step | Do |
 |---|---|
-| 1 | COPY `Bootstrap_template.md` to `../../BOOTSTRAPS/[ROLE]/[XX]_BOOTSTRAP.md` — copy, never move |
+| 1 | COPY `../../TEMPLATES/BOOTSTRAP_template/Bootstrap_template.md` to `../../BOOTSTRAPS/[ROLE]/[XX]_BOOTSTRAP.md` — copy, never move |
 | 2 | Fill it section by section, showing the user each section before writing it. Every `[x]` and placeholder resolved — a shipped boot contains none |
-| 3 | Seed memory by COPY from `../Memory_templates/`: ACTIVE card to `../../MEMORY_CARDS/ACTIVE_MEMORY/[ROLE]/ACTIVE.md`, session file per the session template, static shelf `../../MEMORY_CARDS/STATIC_MEMORY/[ROLE]/` with a README so the empty shelf survives packaging |
+| 3 | Seed memory by COPY from `../../TEMPLATES/Memory_templates/`: ACTIVE card to `../../MEMORY_CARDS/ACTIVE_MEMORY/[ROLE]/ACTIVE.md`, session file per the session template, static shelf `../../MEMORY_CARDS/STATIC_MEMORY/[ROLE]/` with a README so the empty shelf survives packaging |
 | 4 | Build the desk: `../../DESKS/[ROLE]S_DESK/` with a README |
 | 5 | Acceptance: the user fetches the new seat in a FRESH session. It must spin up clean, report status, and await direction. Fix what breaks and refetch — the seat is live only after a clean first fetch |

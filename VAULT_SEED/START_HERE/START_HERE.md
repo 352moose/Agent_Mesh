@@ -60,7 +60,7 @@ You are stateless with respect to this folder — it assumes nothing about you e
 └── WORKSPACE/
     ├── MASTER_INDEX.md        ← doc index: rows are cron-owned, agents touch description fields only
     ├── AGENT_WORKSPACE/
-    │   ├── AGENTS/            ← the machinery: RULES, BOOTSTRAPS, DESKS, MEMORY_CARDS, TEMPLATES
+    │   ├── AGENTS/            ← the machinery: RULES, BOOTSTRAPS, DESKS, MEMORY_CARDS, TEMPLATES, PROTOCOLS
     │   ├── REFS/              ← per-seat reference shelves: GUIDE, DIRECTOR, OVERSEER, CLIDE
     │   └── PROJECTS/          ← the work: ACTIVE, PARKED, SIDE_QUESTS, GRAVEYARD
     ├── OPERATOR_WORKSPACE/    ← the human's rooms: DESK, NOTES, ARCHIVE, CRONS, TOOLS

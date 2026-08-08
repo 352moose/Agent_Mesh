@@ -8,7 +8,7 @@ review_status: protected
 
 # TEMPLATES
 
-The mesh's blank forms: `BOOTSTRAP_template/` (standard boot shape plus the new-agent-build instructional), `PROJECT_template/` (full project folder skeleton), `Memory_templates/` (session and active card scaffolds), `Living_Doc.md` (scaffold for permanent overwrite-in-place docs). Agents copy and fill these per their procedures; never filled in place.
+The mesh's blank forms: `BOOTSTRAP_template/` (standard boot shape — the new-agent-build procedure that runs it lives at `../PROTOCOLS/OVERSEER/`), `PROJECT_template/` (full project folder skeleton), `Memory_templates/` (session and active card scaffolds), `Living_Doc.md` (scaffold for permanent overwrite-in-place docs). Agents copy and fill these per their procedures; never filled in place.
 
 ---
 
