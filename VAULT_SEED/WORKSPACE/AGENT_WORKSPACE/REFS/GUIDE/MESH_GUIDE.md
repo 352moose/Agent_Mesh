@@ -61,7 +61,7 @@ One step at a time, verified on your real workflow before it counts.
 ```
 WORKSPACE/
 ├── AGENT_WORKSPACE/
-│   ├── AGENTS/            ← machinery: boots, desks, memory, protocols
+│   ├── AGENTS/            ← machinery: boots, sub-agents, desks, memory, protocols
 │   ├── REFS/              ← per-seat shelves — this doc lives here
 │   └── PROJECTS/          ← the work: ACTIVE / PARKED / SIDE_QUESTS / GRAVEYARD
 ├── OPERATOR_WORKSPACE/    ← your rooms: DESK, NOTES, ARCHIVE, TOOLS, CRONS

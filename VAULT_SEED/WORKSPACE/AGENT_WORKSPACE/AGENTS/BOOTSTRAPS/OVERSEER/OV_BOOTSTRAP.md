@@ -67,6 +67,7 @@ review_status: protected
 | Session file  | `../../MEMORY_CARDS/SESSION_MEMORY/OVERSEER/CURRENT_SESSION_OVERSEER.md` |
 | Static memory | `../../MEMORY_CARDS/STATIC_MEMORY/OVERSEER/`                         |
 | Protocols shelf | `../../PROTOCOLS/OVERSEER/`                                        |
+| Sub-agents      | `../../SUB_AGENTS/OVERSEER/` — spawn on match, never fetched       |
 | Projects      | `../../../PROJECTS/`                                                 |
 | User's desk   | `../../../../OPERATOR_WORKSPACE/DESK/`                               |
 | Trash         | `../../../../TRASH/Desk_Sweep/`                                      |

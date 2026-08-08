@@ -26,7 +26,7 @@ review_status: protected
 
 ## The primed instance
 
-Single-shot, scoped, no memory. The completion report IS its memory — it does not carry state to the next file or the next slice.
+Spawn `../../SUB_AGENTS/OVERSEER/RELAY.md` — one per slice, in parallel. Single-shot, scoped, no memory: the completion report IS its memory, and it carries no state to the next file or the next slice.
 
 | Prime with | Why |
 |---|---|
