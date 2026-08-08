@@ -13,6 +13,18 @@ review_status: protected
 
 ---
 
+## Workspace Index
+
+| CAP       | Behavior                                                                   | Hygiene                                          |
+| --------- | -------------------------------------------------------------------------- | ------------------------------------------------ |
+| ≤ 20 rows | one row per room — address + one line, formed at first close from the tour | consult silently at spin up; edit as rooms change |
+
+| Address                 | One line                                  |
+| ----------------------- | ----------------------------------------- |
+| {path from WORKSPACE/}  | {what lives there — when to route here}   |
+
+---
+
 ## Working Notes
 
 - New seat requested → Overseer's lane: `../../../TEMPLATES/BOOTSTRAP_template/New_agent_build.md` — loaded and run with the user, never freehand.
