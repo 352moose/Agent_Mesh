@@ -19,9 +19,10 @@ review_status: protected
 | 1 | Freeze — nothing renamed yet. State `old name → new name` in one line, confirm with the user |
 | 2 | Locate the canonical home: the template, contract file, or definition the name LIVES in. Written in N docs but defined in one = the rename lands at the definition first |
 | 3 | Sweep the whole tree for the old name — file contents AND filenames, no result cap. Filename-only search misses contents; run both |
-| 4 | List every hit by filename and classify (table below). Never edit from a hit count — eyeball the list first |
-| 5 | Rename at the canonical home, then repoint live references in batches, diffing each batch |
-| 6 | Verify: re-sweep the old name — only fossils and coincidences remain; spot-check that the new name resolves where it is consumed (wikilinks, PATHS rows, scripts) |
+| 4 | Build the census: every hit by filename, classified (table below). Live hits are the census; never build it from a hit count |
+| 5 | Rename at the canonical home |
+| 6 | Fan out per `Cascade_fan_out.md` — slice the census across instances primed with `old → new` and one correction class: repoint the reference, touch nothing else |
+| 7 | Verify: re-sweep the old name — only fossils and coincidences remain; spot-check that the new name resolves where it is consumed (wikilinks, PATHS rows, scripts) |
 
 ---
 
@@ -30,7 +31,7 @@ review_status: protected
 | Class | Test | Action |
 |---|---|---|
 | Live | a reader or script follows it today | repoint |
-| Fossil | ARCHIVE, BACKUPS, TRASH, PARKED, GRAVEYARD, static memory cards, session logs | leave — old names in history are expected, not drift |
+| Fossil | sits in a fossil tree — the list is in `Cascade_fan_out.md` | leave — old names in history are expected, not drift |
 | Coincidence | same string, different meaning | leave |
 
 ---
