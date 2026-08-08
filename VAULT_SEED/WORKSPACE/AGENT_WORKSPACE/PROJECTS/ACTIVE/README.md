@@ -18,21 +18,6 @@ review_status: protected
 
 ---
 
-## Tour Card
+## Tour
 
-> Guide: deliver the fenced block verbatim at this tour stop.
-
-```
-── Tour Stop — WORKSPACE/AGENT_WORKSPACE/PROJECTS/ACTIVE/
-
-This is ACTIVE — the mesh's default job list. Every project being built
-right now lives here as one folder, and the folder's name is the
-project's name, so listing this folder answers "what are we working on."
-Inside each project folder sit the documents the Director and CLIde work
-from: a PRD holding intent, a STATE file holding where things stand, and
-the ACTION_PROMPT and ACTION_REPORT that carry each build cycle. The
-seed already placed one folder here — First Project — which the Director
-renames and fills when you stand up your first build. Nothing is ever
-deleted out of this tier; when a project pauses, shrinks, or ends, its
-folder moves whole to PARKED, SIDE_QUESTS, or the GRAVEYARD.
-```
+> Covered by the bundled card at `../README.md` — the walk does not stop here.

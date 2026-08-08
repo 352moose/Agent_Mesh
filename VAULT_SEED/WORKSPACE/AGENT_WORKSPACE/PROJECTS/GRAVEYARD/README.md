@@ -17,19 +17,6 @@ review_status: protected
 
 ---
 
-## Tour Card
+## Tour
 
-> Guide: deliver the fenced block verbatim at this tour stop.
-
-```
-── Tour Stop — WORKSPACE/AGENT_WORKSPACE/PROJECTS/GRAVEYARD/
-
-This is the GRAVEYARD, where a project goes when it ends — and ending
-here is a decision, not a failure. A retired project moves in whole,
-every document intact, because the mesh never deletes its history: what
-was tried and what was learned stays readable for as long as the
-workspace lives. Nothing in this folder is ever swept, trimmed, or
-cleaned up. On rare occasions a project comes back — a resurrection
-simply moves the folder out again. It is empty now, and an empty
-graveyard on day one is exactly right.
-```
+> Covered by the bundled card at `../README.md` — the walk does not stop here.

@@ -17,19 +17,6 @@ review_status: protected
 
 ---
 
-## Tour Card
+## Tour
 
-> Guide: deliver the fenced block verbatim at this tour stop.
-
-```
-── Tour Stop — WORKSPACE/AGENT_WORKSPACE/PROJECTS/PARKED/
-
-This is PARKED, where a project goes when you pause it on purpose.
-Nothing here is dead — a parked project moves in whole, its documents
-unchanged, so it keeps everything needed to pick up exactly where it
-stopped. It is not a roadmap or a queue, either: nothing leaves on a
-schedule. Revival is your call alone — when you say the word, the folder
-moves back to ACTIVE and work resumes from its STATE file. It stands
-empty today, and stays that way until the first time you set a build
-aside.
-```
+> Covered by the bundled card at `../README.md` — the walk does not stop here.

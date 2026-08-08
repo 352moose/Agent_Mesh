@@ -17,19 +17,6 @@ review_status: protected
 
 ---
 
-## Tour Card
+## Tour
 
-> Guide: deliver the fenced block verbatim at this tour stop.
-
-```
-── Tour Stop — WORKSPACE/AGENT_WORKSPACE/PROJECTS/SIDE_QUESTS/
-
-This is SIDE_QUESTS, the home for small detours — experiments, probes,
-one-off tools, the thing you tried for a day. A side quest travels
-lighter than a real project: it needs a folder and enough notes to
-resume, not the full project template, so an idea can land here without
-ceremony. That lightness is the point — it keeps ACTIVE honest as the
-list of real builds. And when a quest earns it, it graduates: the
-template shape gets copied in and the folder moves to ACTIVE as a full
-project. It starts empty; your first detour will fill it.
-```
+> Covered by the bundled card at `../README.md` — the walk does not stop here.
