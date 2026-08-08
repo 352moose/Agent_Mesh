@@ -8,4 +8,4 @@ review_status: protected
 
 # PROTOCOLS — DIRECTOR
 
-Director's protocol shelf — empty until a Director procedure earns a home. This README keeps the empty shelf alive through packaging.
+Director's protocol shelf. Holds `DR_DISTILL.md` — the compression protocol this seat runs at its caps and closes.

@@ -8,4 +8,4 @@ review_status: protected
 
 # PROTOCOLS — CLIDE
 
-CLIde's protocol shelf — empty until a CLIde procedure earns a home. Kept by the Overseer: CLIde is single-shot and holds no shelves of its own. This README keeps the empty shelf alive through packaging.
+CLIde's protocol shelf. Holds `CD_DISTILL.md` — the compression protocol that fires at the ACTION_REPORT (no session close on a single-shot seat). Kept by the Overseer: CLIde holds no shelves of its own.

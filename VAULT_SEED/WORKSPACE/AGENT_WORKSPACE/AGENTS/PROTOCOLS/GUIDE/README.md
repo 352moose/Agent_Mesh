@@ -8,4 +8,4 @@ review_status: protected
 
 # PROTOCOLS — GUIDE
 
-Guide's protocol shelf — empty until a Guide procedure earns a home. This README keeps the empty shelf alive through packaging.
+Guide's protocol shelf. Holds `GD_DISTILL.md` — the compression protocol this seat runs at its caps and closes.
