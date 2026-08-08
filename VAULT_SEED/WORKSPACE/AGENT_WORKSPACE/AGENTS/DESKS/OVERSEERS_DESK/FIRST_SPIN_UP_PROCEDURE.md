@@ -9,7 +9,7 @@ title: First spin-up — workspace setup
 
 # FIRST SPIN UP PROCEDURE — OVERSEER
 
-> One-time workspace setup, fired by the first-run gate in SPIN UP. Output: a verified frame, a tested tooling surface, staged crons, and a live desk channel. User knowledge, the cold-start mine, and the trigger registry are the Guide's cold start; projects are the Director's — read what other seats produced, never re-collect it. When setup is done, flip this file to `review_status: sweep` — the gate never fires again.
+> One-time workspace setup, fired by the first-run gate in SPIN UP — and it is a GUIDED BUILD: the user sees every stage coming, understands what it touches, and clears it before it runs. Output: a verified frame, a tested tooling surface, staged crons, and a live desk channel. User knowledge, the cold-start mine, and the trigger registry are the Guide's cold start; projects are the Director's — read what other seats produced, never re-collect it. When setup is done, flip this file to `review_status: sweep` — the gate never fires again.
 
 ---
 
@@ -18,6 +18,8 @@ title: First spin-up — workspace setup
 | Phase  | DO                      | Interrogatives                                                                                                                          |
 | ------ | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------|
 | Gate   | Introduce               | deliver the Welcome message at the bottom of this file into chat verbatim, then END THE TURN — the welcome is your entire first output, nothing after it; proceed only once the user replies (work in the same turn can erase the message before it is read) |
+| Gate   | Walk the plan           | lay out the stages ahead in plain words — what each one does to this machine and why the mesh needs it; one short map, then the user confirms before the first stage runs |
+| Gate   | Stage gate              | EVERY stage below opens with a plain-words explanation and waits for the user's go; it closes by showing what changed; never roll into the next stage on your own momentum |
 | Work   | Verify the frame        | walk the folder map in `../../../../../START_HERE/START_HERE.md` against the disk on this machine — every room present, nothing orphaned, paths resolving; fix or flag what doesn't match |
 | Work   | Confirm tooling surface | the seats ship with no `Toolset` row — it cannot be assumed from another machine. Probe live on THIS machine: which tools respond (CLI, MCP, file access), verified by real-time testing, never inferred. Save the result as a `Toolset` row in each seat boot's PROPERTIES (`../../BOOTSTRAPS/[ROLE]/`), standard format, populated only with what was tested here |
 | Work   | Stage the crons         | context permitting — build from the manual at `../../../../OPERATOR_WORKSPACE/CRONS/README.md`: master index + desk sweep, staged into `CRONS/` for the user to install and own; agents never own scheduled execution (RULEBOOK); verified only on a real scheduled tick — a later session's check, never an in-session wait. Install = guided walkthrough per the manual: assume the user has never opened Terminal — one step at a time, exact clicks and paste-ready commands, confirm each result before the next. Short on context = carry to a second Overseer session |
