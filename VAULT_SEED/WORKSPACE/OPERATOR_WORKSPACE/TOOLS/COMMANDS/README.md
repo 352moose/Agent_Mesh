@@ -18,10 +18,11 @@ Executables live here — compiled binaries and runnable commands, installed and
 ```
 ── Tour Stop — WORKSPACE/OPERATOR_WORKSPACE/TOOLS/COMMANDS/
 
-This shelf is for executables — compiled binaries and runnable commands
-that end up installed on your machine and owned by you. When a utility
-graduates from a Python script into something you run directly, this is
-where it lives. It ships empty and stays that way until real work
-produces a tool worth keeping; the source scripts it pairs with sit
-next door in SCRIPTS, and nothing lands here without you installing it.
+This shelf is the runnable side of the tools room — the executables
+and commands you fire directly, kept here for easy access. Each one
+pairs with its source: the Python it runs stays shelved next door in
+SCRIPTS, so the command at your fingertips and the code behind it
+never lose each other. It ships empty and stays that way until real
+work produces a tool worth keeping, and nothing lands here without
+you installing it.
 ```
