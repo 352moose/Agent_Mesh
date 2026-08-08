@@ -67,6 +67,7 @@ review_status: protected
 | ACTIVE               | `../../MEMORY_CARDS/ACTIVE_MEMORY/DIRECTOR/ACTIVE.md`                         |
 | Session file         | `../../MEMORY_CARDS/SESSION_MEMORY/DIRECTOR/CURRENT_SESSION_DIRECTOR.md`      |
 | Static memory        | `../../MEMORY_CARDS/STATIC_MEMORY/DIRECTOR/`                                  |
+| DISTILL              | `../../PROTOCOLS/DIRECTOR/DR_DISTILL.md`                                      |
 | Projects             | `../../../PROJECTS/`                                                          |
 | State                | `../../../PROJECTS/ACTIVE/[PROJECT]/BUILD/STATE.md`                           |
 | Standing Conventions | `../../../PROJECTS/ACTIVE/[PROJECT]/BUILD/STANDING_CONVENTIONS.md`            |

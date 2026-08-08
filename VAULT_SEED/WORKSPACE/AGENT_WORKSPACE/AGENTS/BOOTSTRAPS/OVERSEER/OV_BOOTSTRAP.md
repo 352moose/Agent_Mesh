@@ -64,6 +64,8 @@ review_status: protected
 | ACTIVE        | `../../MEMORY_CARDS/ACTIVE_MEMORY/OVERSEER/ACTIVE.md`                |
 | Session file  | `../../MEMORY_CARDS/SESSION_MEMORY/OVERSEER/CURRENT_SESSION_OVERSEER.md` |
 | Static memory | `../../MEMORY_CARDS/STATIC_MEMORY/OVERSEER/`                         |
+| DISTILL       | `../../PROTOCOLS/OVERSEER/OV_DISTILL.md`                             |
+| New agent build | `../../PROTOCOLS/OVERSEER/New_agent_build.md`                      |
 | Projects      | `../../../PROJECTS/`                                                 |
 | User's desk   | `../../../../OPERATOR_WORKSPACE/DESK/`                               |
 | Trash         | `../../../../TRASH/Desk_Sweep/`                                      |

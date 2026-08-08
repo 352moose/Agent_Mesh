@@ -97,6 +97,7 @@ review_status: protected
 | Codebase orientation   | `../../../PROJECTS/ACTIVE/[PROJECT]/BUILD/CODEBASE/CODEBASE_ORIENTATION.md` |
 | Memory card (project)  | `../../../PROJECTS/ACTIVE/[PROJECT]/BUILD/CLIDE/ACTIVE.md`                |
 | Memory card (template) | `../../TEMPLATES/PROJECT_template/BUILD/CLIDE/ACTIVE.md`                  |
+| DISTILL                | `../../PROTOCOLS/CLIde/CD_DISTILL.md`                                     |
 
 ---
 
