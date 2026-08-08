@@ -66,7 +66,7 @@ review_status: protected
 | ACTIVE        | `../../MEMORY_CARDS/ACTIVE_MEMORY/GUIDE/ACTIVE.md`                        |
 | Session file  | `../../MEMORY_CARDS/SESSION_MEMORY/GUIDE/CURRENT_SESSION_GUIDE.md`        |
 | Static memory | `../../MEMORY_CARDS/STATIC_MEMORY/GUIDE/`                                 |
-| DISTILL       | `../../PROTOCOLS/GUIDE/GD_DISTILL.md`                                     |
+| Protocols shelf | `../../PROTOCOLS/GUIDE/` — filenames state the purpose; load on match   |
 | REFS shelf    | `../../../REFS/GUIDE/`                                                    |
 | MESH_GUIDE    | `../../../REFS/GUIDE/MESH_GUIDE.md`                                       |
 | USER_PROFILE  | `../../../REFS/GUIDE/USER_PROFILE.md`                                     |

@@ -32,6 +32,7 @@ review_status: protected
 | Execute project build steps                       | CLIDE                                              |
 | Modify another seat's files without user approval | show the diff, wait for approval                   |
 | Delete anything                                   | flag `review_status: sweep`; the sweep moves files |
+| Freehand work that is infra, protocol, or skill shaped | list `../../PROTOCOLS/OVERSEER/` — anything that sounds even similar to a filename there, load it before acting |
 
 ### Directive
 
@@ -46,6 +47,7 @@ review_status: protected
 | ---------- | ------------------------- | ----------------------------------- | ------------------------------------------ | ----------------------------------------------- |
 | RULEBOOK   | spin up                   | mesh invariants                     | audit baseline + own operating rules       | load in full; compare targets against it        |
 | TEMPLATES/ | ON DEMAND (intake, audit) | blank frames for projects, fixtures | intake copies from it; audits diff against it | copy to create, diff to audit                |
+| PROTOCOLS/ | spin up (list) + ON MATCH  | step-by-step procedures, one folder per seat | boots stay lean; procedures run from the page, never from memory | filenames state the purpose — load on match, run top to bottom |
 | All desks  | spin up + ON DEMAND       | typed-file channels between seats   | cross-seat state lives here, not in chat   | frontmatter first, oldest first                 |
 | ACTIVE     | spin up + close           | living patterns + log               | carry-forward memory                       | per doc rules                                   |
 
@@ -64,8 +66,7 @@ review_status: protected
 | ACTIVE        | `../../MEMORY_CARDS/ACTIVE_MEMORY/OVERSEER/ACTIVE.md`                |
 | Session file  | `../../MEMORY_CARDS/SESSION_MEMORY/OVERSEER/CURRENT_SESSION_OVERSEER.md` |
 | Static memory | `../../MEMORY_CARDS/STATIC_MEMORY/OVERSEER/`                         |
-| DISTILL       | `../../PROTOCOLS/OVERSEER/OV_DISTILL.md`                             |
-| New agent build | `../../PROTOCOLS/OVERSEER/New_agent_build.md`                      |
+| Protocols shelf | `../../PROTOCOLS/OVERSEER/`                                        |
 | Projects      | `../../../PROJECTS/`                                                 |
 | User's desk   | `../../../../OPERATOR_WORKSPACE/DESK/`                               |
 | Trash         | `../../../../TRASH/Desk_Sweep/`                                      |
@@ -80,6 +81,7 @@ review_status: protected
 | Work   | Memory protocol  | follow RULEBOOK — load session file, page rules                       |
 | Load   | ACTIVE           | `../../MEMORY_CARDS/ACTIVE_MEMORY/OVERSEER/ACTIVE.md`                 |
 | Load   | Last static card | most recent in `../../MEMORY_CARDS/STATIC_MEMORY/OVERSEER/`; none = first run |
+| Load   | Protocols shelf  | list `../../PROTOCOLS/OVERSEER/` — filenames state the purpose; load none yet |
 | Work   | Check desk       | read every file on own desk, oldest first, frontmatter first          |
 | Gate   | First run        | `FIRST_SPIN_UP_PROCEDURE.md` on desk = run it now (workspace setup)   |
 | Report | Status           | *Overseer online. [N] desk items, open work, context %.*              |
