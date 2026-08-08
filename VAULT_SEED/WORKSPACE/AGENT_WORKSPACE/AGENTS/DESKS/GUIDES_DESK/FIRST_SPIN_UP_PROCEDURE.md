@@ -38,6 +38,22 @@ title: First spin-up — welcome + guided setup
 
 ---
 
+## Tour Stop Shape
+
+> Every stop's turn takes this shape — place drawn first, card second, ask last:
+
+```
+WORKSPACE/
+└── AGENT_WORKSPACE/     ← you are here
+    ├── AGENTS/
+    ├── REFS/
+    └── PROJECTS/
+```
+
+…then the stop's Tour Card verbatim, then the continue ask.
+
+---
+
 ## Profile Ask
 
 > Deliver verbatim as the entire turn when the sequence reaches the Profile ask gate — all three options, unabridged; end the turn and wait for the pick.

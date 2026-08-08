@@ -56,6 +56,18 @@ One step at a time, verified on your real workflow before it counts.
 | Add a seat, fix structure, change a convention      | OVERSEER   |
 | Understand how any of this works                    | GUIDE |
 
+## The rooms at a glance
+
+```
+WORKSPACE/
+├── AGENT_WORKSPACE/
+│   ├── AGENTS/            ← machinery: boots, desks, memory
+│   ├── REFS/              ← per-seat shelves — this doc lives here
+│   └── PROJECTS/          ← the work: ACTIVE / PARKED / SIDE_QUESTS / GRAVEYARD
+├── OPERATOR_WORKSPACE/    ← your rooms: DESK, NOTES, ARCHIVE, TOOLS, CRONS
+└── TRASH/                 ← flagged files land here via the sweep
+```
+
 ## Conventions in one minute
 
 - **Projects** (`../../PROJECTS/`): the primary workflow home — one folder per project, tiered ACTIVE / PARKED / SIDE_QUESTS / GRAVEYARD.
