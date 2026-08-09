@@ -4,12 +4,12 @@ from: MESH SEED
 to: DIRECTOR
 created: 2026/08/05
 review_status: pending_review
-title: First spin-up — security intake + first project
+title: First spin-up — project tour, then the user's pick
 ---
 
 # FIRST SPIN UP PROCEDURE — DIRECTOR
 
-> One-time intake, fired by the first-run gate in SPIN UP. Output: a security checklist built for THIS user's surfaces and stacks, and the first project standing in PROJECTS/ACTIVE. The Guide keeps who you are — this seat asks what you want to build. When both are live, flip this file to `review_status: sweep` — the gate never fires again.
+> One-time intake, fired by the first-run gate in SPIN UP. It opens with a tour of the project folder — the Guide's walk stops at the door and this seat goes inside — and then forks three ways on what the user wants first. The Guide keeps who you are; this seat asks what you want to build. When the user has taken every door they intend to take, flip this file to `review_status: sweep` — the gate never fires again.
 
 ---
 
@@ -19,16 +19,16 @@ title: First spin-up — security intake + first project
 | ------ | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Gate   | Introduce                 | deliver the Welcome message at the bottom of this file into chat verbatim, then END THE TURN — the welcome is your entire first output, nothing after it; proceed only once the user replies (work in the same turn can erase the message before it is read)                                                              |
 | Work   | Read the user profile     | the Guide's profile at `../../../REFS/GUIDE/USER_PROFILE.md` — read it before anything else; it frames both intakes. May be sparse if the user chose learn-as-we-go — read what's there, never re-collect                                                            |
-| Work   | Security questionnaire    | ask the user, one question at a time: (1) what surfaces will your projects touch — web, native app, CLI, API, cloud, payments, auth, user data? (2) what codebases and stacks do you prefer — languages, frameworks, platforms?                                     |
-| Gate   | Confirm scope             | play back the surfaces + stacks as a list; user confirms before any research                                                                                                                                                                                        |
-| Work   | Research official sources | search OFFICIAL documentation only, per confirmed surface/stack — vendor security guides (Apple, Google, Microsoft, cloud providers), OWASP (Top 10, ASVS, cheat sheets), official language/framework security pages. No blogs, no forums, no third-party summaries |
-| Work   | Build the checklist       | fill the skeleton at `../../../REFS/DIRECTOR/SECURITY_CHECKLIST.md` — page rules live on that file; one section per confirmed surface, stamp `updated`                                                                                                              |
-| Gate   | User review               | walk the user through the checklist section by section; adjust; user approves                                                                                                                                                                                       |
-| Work   | Project intake            | ask which door, one question: (1) **import** — work already underway the mesh should hold; (2) **fresh** — a new project, settled one question at a time (name, goal, what done looks like for a first pass); (3) **starter** — the ready-made first build at the foot of this file, recommended for a first-day user: small, tactile, done in a few Director→CLIde cycles to feel the workflow before committing real work                                                                       |
-| Work   | Stand up the project      | the seed pre-copied the template: rename `../../../PROJECTS/ACTIVE/First Project (overwrite in place)/` to `[project]` and fill it in place — fill what intake settled, leave the rest blank; each fixture's page rules govern from there. Every LATER project = COPY the template per `../../../PROJECTS/ACTIVE/README.md`, never move                              |
+| Work   | Tour the project folder   | the localized walk at the foot of this file — one room per turn, cards delivered verbatim. The Guide's tour ends at the door of PROJECTS; this is the inside, and the user should have seen where an ACTION_PROMPT lives before one is written for them |
+| Gate   | The fork                  | deliver the Fork Ask at the foot of this file verbatim — three doors, the user picks one. END THE TURN on the ask; never pick for them and never roll into a door on your own momentum |
+| Work   | Door 1 — security intake  | ask one question at a time: (1) what surfaces will your projects touch — web, native app, CLI, API, cloud, payments, auth, user data? (2) what codebases and stacks do you prefer? Play the answers back as a list and get a confirm; then search OFFICIAL documentation only — vendor security guides, OWASP (Top 10, ASVS, cheat sheets), official language/framework security pages, no blogs or third-party summaries — and fill the skeleton at `../../../REFS/DIRECTOR/SECURITY_CHECKLIST.md` per its page rules, one section per confirmed surface, stamp `updated`. Walk the user through it section by section and adjust until they approve |
+| Work   | Door 2 — new project      | settle it one question at a time: name, goal, what done looks like for a first pass. Work already underway is the same door — the mesh holds it from wherever it currently is, nothing is re-collected. Then stand it up |
+| Work   | Door 3 — tutorial project | run the blueprint at `../../BLUEPRINTS/DIRECTOR/Snake/` — read `0_ORIENTATION` through `3_BUILD` in order; `1_AUDIT` and the `2_TEACH` stop both run before anything is built. Recommended for a first-day user: small, tactile, three cycles, and the workflow is the lesson. Stand the project up first, then the cycles run against it |
+| Work   | Stand up the project      | doors 2 and 3: the seed pre-copied the template — rename `../../../PROJECTS/ACTIVE/First Project (overwrite in place)/` to `[project]` and fill it in place, filling what intake settled and leaving the rest blank; each fixture's page rules govern from there. Every LATER project = COPY the template per `../../../PROJECTS/ACTIVE/README.md`, never move |
+| Gate   | Re-offer the fork         | a door closes, the other two stay on the table — name which are still open and let the user take another or stop. A skipped door is "not now", never "never"; the security checklist in particular is built at whatever point the user wants it, including months later |
 | Work   | Record                    | write the project and where it lives to `../../MEMORY_CARDS/ACTIVE_MEMORY/DIRECTOR/ACTIVE.md` per its page rules                                                                                                                 |
-| Work   | Close out                 | flip this file to `review_status: sweep`                                                                                                                                                                                                                            |
-| Report | Confirm                   | *Security checklist live at REFS. [Project] standing at PROJECTS/ACTIVE. First spin-up complete — the mesh is fully open.*                                                                                                                                           |
+| Work   | Close out                 | flip this file to `review_status: sweep` — only once the user has stopped taking doors                                                                                                                                                                              |
+| Report | Confirm                   | *[What was set up]. [Doors still open, or none]. First spin-up complete — the mesh is fully open.*                                                                                                                                                                  |
 
 ---
 
@@ -46,14 +46,38 @@ Bring me a project you want to start, continue, recover, or change. I will orien
 
 ---
 
-## Starter build — Snake
+## Project tour
 
-> The recommended door for a user with nothing queued: classic Snake — a small game whose whole point is being a program, where every cycle ends with the user playing what just got built. Build it on the stacks the security questionnaire already surfaced — the user's preferred codebase. No stated preference = python3 + Tk (already on the machine; Seed Nav runs on it).
+> The Guide's walk stops at `PROJECTS/` and its tier folders. This is the inside of one project — five rooms, one per turn, same mechanic as the main walk.
 
-| Cycle | CLIde builds | The user's check |
-|---|---|---|
-| 1 | a window opens; the snake moves under the arrow keys | launch it, steer, report back |
-| 2 | food, growth, a visible score | play a round, report |
-| 3 | polish the user directs — speed curve, colors, game-over screen — plus a high score persisted to a file in the project folder | play, beat the score, relaunch, see it remembered |
+**Where the cards live.** Every card below sits in `../../TEMPLATES/PROJECT_template/`, not in the user's project. The template is copied whole into every new project, so a card written there would ship a template path into live work — the cards stay in the template and this tour reads them from there while standing in the user's own folder. Do not copy them across, and do not read this as a gap to fill.
 
-Each cycle is one full loop: one `ACTION_PROMPT` → CLIde builds and verifies → `ACTION_REPORT` → state updated → next cycle. Stand the project up like any other — rename the pre-copied First Project folder, fill what's settled. The game is real work; the workflow is the lesson.
+| Order | Room | Card |
+| ----- | ---- | ---- |
+| 1 | the project folder itself | `PROJECT_template/README.md` |
+| 2 | `BUILD/` | `PROJECT_template/BUILD/README.md` |
+| 3 | `BUILD/CLIDE/` | `PROJECT_template/BUILD/CLIDE/README.md` |
+| 4 | `BUILD/CODEBASE/` | `PROJECT_template/BUILD/CODEBASE/README.md` |
+| 5 | `REFS/` | `PROJECT_template/REFS/README.md` |
+
+| Rule |
+| ---- |
+| One room per turn — present the room, deliver its card's fenced block verbatim, then ask |
+| The fork reveals only the rooms directly below where the user is standing; a dive re-forks on that room's own children |
+| `BUILD/` is the only room with anything below it — `CLIDE/` and `CODEBASE/` are reached from there, not from the project root |
+| Continue returns to this walk from any depth; track no return path |
+| The tour ends at `REFS/`, and the next turn is the Fork Ask — never fold the ask into the last card |
+
+---
+
+## Fork Ask
+
+> Deliver verbatim as the entire turn once the tour closes — all three doors, unabridged; end the turn and wait for the pick.
+
+That's the shape of a project. Now the part that's yours to choose: what do you want to do first? Three doors, and none of them closes the others — whatever you skip stays on the table.
+
+1. **Security groundwork** — I ask what your projects will touch and what you build with, then research the official guidance for exactly those surfaces and build you a checklist. Worth doing before real work; skippable if you want to build something first.
+2. **A real project** — something you actually want to make, or work already underway that this workspace should hold. We settle it one question at a time and stand it up.
+3. **The tutorial project** — a game of Snake, built in three rounds, where you play the result of each one. Small, nothing at stake, and by the end you'll have run the whole workflow once. Recommended if this is your first day here.
+
+Which one?

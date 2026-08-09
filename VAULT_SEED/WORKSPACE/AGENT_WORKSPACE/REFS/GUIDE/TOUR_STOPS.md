@@ -32,7 +32,7 @@ review_status: protected
 
 ---
 
-## The dives — 61 rooms
+## The dives — 62 rooms
 
 > Reached only by taking a fork. Every row states the room it is reached from, so a dive card is never delivered out of place.
 
@@ -95,9 +95,10 @@ review_status: protected
 | `PROTOCOLS/DIRECTOR/` | stop 7 | — | — |
 | `PROTOCOLS/GUIDE/` | stop 7 | — | — |
 | `PROTOCOLS/OVERSEER/` | stop 7 | — | — |
-| `AGENTS/BLUEPRINTS/` | stop 7 | `BLUEPRINTS/OVERSEER/Master_index_cron/` · `BLUEPRINTS/OVERSEER/Desk_sweep_cron/` | _container_ `BLUEPRINTS/OVERSEER/` |
+| `AGENTS/BLUEPRINTS/` | stop 7 | `BLUEPRINTS/OVERSEER/Master_index_cron/` · `BLUEPRINTS/OVERSEER/Desk_sweep_cron/` · `BLUEPRINTS/DIRECTOR/Snake/` | _containers_ `BLUEPRINTS/OVERSEER/` `BLUEPRINTS/DIRECTOR/` |
 | `BLUEPRINTS/OVERSEER/Master_index_cron/` | `AGENTS/BLUEPRINTS/` | — | _container_ `Master_index_cron/3_BUILD/` |
 | `BLUEPRINTS/OVERSEER/Desk_sweep_cron/` | `AGENTS/BLUEPRINTS/` | — | _container_ `Desk_sweep_cron/3_BUILD/` |
+| `BLUEPRINTS/DIRECTOR/Snake/` | `AGENTS/BLUEPRINTS/` | — | _container_ `Snake/3_BUILD/` |
 
 ### Off stop 8 — `AGENT_WORKSPACE/REFS/`
 

@@ -35,8 +35,14 @@ a running note of what broke, written at the moment it broke rather
 than cleaned up afterwards, which is usually the half that saves the
 next person a day.
 
-There are two here so far, both the Overseer's: the scheduled job
-that keeps the document index current, and the one that clears
-absorbed files off the desks. If you ever want either of them running
-somewhere else, these folders are how that happens.
+There are three here so far, filed under the seat that owns each
+build. Two are the Overseer's: the scheduled job that keeps the
+document index current, and the one that clears absorbed files off
+the desks. If you ever want either running somewhere else, these
+folders are how that happens.
+
+The third is the Director's, and it is the odd one out — the
+tutorial game, written before anyone built it rather than after.
+Its record of what broke is empty because nothing has broken yet.
+Whoever plays the first round is the one who fills it in.
 ```
