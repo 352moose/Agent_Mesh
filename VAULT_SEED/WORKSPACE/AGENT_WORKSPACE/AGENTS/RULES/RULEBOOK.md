@@ -42,6 +42,7 @@ Permanent desk fixtures — READMEs and `_OPEN_JOBS_` — are furniture, not del
 | Rule |
 |---|
 | Pattern: `[TYPE]_YYYY-MM-DD_N.md` — type in caps matching frontmatter, date with dashes, N counting up within the day |
+| Exceptions, and the whole list: `README.md`, `_OPEN_JOBS_.md`, `FIRST_SPIN_UP_PROCEDURE.md` — a fixture whose name IS its address, sitting in one known place per desk, never dated and never numbered |
 | Dates: dashes in filenames (`YYYY-MM-DD`), slashes in frontmatter (`YYYY/MM/DD`) |
 
 ### review_status lifecycle

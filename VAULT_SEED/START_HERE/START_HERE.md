@@ -60,12 +60,15 @@ You are stateless with respect to this folder — it assumes nothing about you e
 └── WORKSPACE/
     ├── MASTER_INDEX.md        ← doc index: rows are cron-owned, agents touch description fields only
     ├── AGENT_WORKSPACE/       ← the engine room: the agent team lives and works in here
-    │   ├── AGENTS/            ← the machinery, five shelves
-    │   │   ├── BOOTSTRAPS/    ← one startup file per seat, with RULES and SUB_AGENTS beside it
+    │   ├── AGENTS/            ← the machinery, eight shelves
+    │   │   ├── BOOTSTRAPS/    ← one startup file per seat
+    │   │   ├── RULES/         ← the rulebook every seat loads at spin-up
+    │   │   ├── SUB_AGENTS/    ← the single-shot hands a seat can spawn
     │   │   ├── DESKS/         ← one inbox per seat, and the sweep that clears them
     │   │   ├── MEMORY_CARDS/  ← what a seat carries between sessions: ACTIVE, SESSION, STATIC
     │   │   ├── TEMPLATES/     ← the blank forms everything new is stamped from
-    │   │   └── PROTOCOLS/     ← per-seat procedures, and the BLUEPRINTS of what was built here
+    │   │   ├── PROTOCOLS/     ← per-seat procedure shelves, run on demand
+    │   │   └── BLUEPRINTS/    ← case studies of what has been built here
     │   ├── REFS/              ← per-seat reference shelves: GUIDE, DIRECTOR, OVERSEER, CLIDE
     │   └── PROJECTS/          ← the work: ACTIVE, PARKED, SIDE_QUESTS, GRAVEYARD
     ├── OPERATOR_WORKSPACE/    ← the human's rooms: DESK, NOTES, ARCHIVE, CRONS, TOOLS

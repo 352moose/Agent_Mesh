@@ -7,7 +7,7 @@ title: Cron shelf — build instructions
 
 # Cron Shelf — Build Instructions
 
-> Scheduled jobs live here. Agents stage scripts onto this shelf; the user installs and owns the crontab — agents never own scheduled execution. Layout: `SCRIPTS/` (the jobs), `LOGS/` (run stamps and errors), `HEALTH/` (optional status boards).
+> Scheduled jobs live here. Agents stage scripts onto this shelf; the user installs and owns the crontab — agents never own scheduled execution. Layout: `SCRIPTS/` (the jobs), `LOGS/` (run stamps and errors), `HEALTH/` (status boards — a job that is verified through HEALTH must write one).
 
 > Any modern LLM can build these scripts from this page — instruction is deliberately light. Every path below is relative to this file.
 
@@ -16,7 +16,7 @@ title: Cron shelf — build instructions
 | Job | Schedule | Reads | Writes |
 |---|---|---|---|
 | Master index refresh | daily | the `../../` tree (excluding memory cards, desks, trash) | `../../MASTER_INDEX.md` — rows between the `AUTO:INDEX` sentinels only |
-| Desk sweep | hourly | every desk: `../../AGENT_WORKSPACE/AGENTS/DESKS/*/` and `../DESK/` | moves files marked `review_status: sweep` to `../../TRASH/Desk_Sweep/[SEAT]/` |
+| Desk sweep | hourly | every desk: `../../AGENT_WORKSPACE/AGENTS/DESKS/*/` and `../DESK/` | moves files marked `review_status: sweep` to `../../TRASH/Desk_Sweep/[SEAT]/`, where `[SEAT]` is the desk's own folder name verbatim — `GUIDES_DESK`, `DIRECTORS_DESK`, `OVERSEERS_DESK`, and `OPERATOR_DESK` for the operator's `DESK/` |
 
 ## Build Rules
 
@@ -43,7 +43,7 @@ The crontab is user-owned, but the user may never have opened Terminal. The agen
 4. **Install the lines** with an append-safe paste — never send the user into `crontab -e` (it opens an editor a novice cannot exit). Hand them ONE paste block, payload only, with the real lines substituted:
 
    ```
-   (crontab -l 2>/dev/null; echo 'LINE_1'; echo 'LINE_2') | crontab -
+   (crontab -l 2>/dev/null | grep -v -F 'master_index.py' | grep -v -F 'desk_sweep.py'; echo 'LINE_1'; echo 'LINE_2') | crontab -
    ```
 
 5. **Confirm the install.** The user pastes `crontab -l`; the agent reads the echoed output back and confirms both lines are present.
