@@ -12,9 +12,9 @@ review_status: protected
 
 ---
 
-## Tour Card
+## Dive Card
 
-> Guide: deliver the fenced block verbatim at this tour stop — the turn after the PROJECTS layer card. Shallow on purpose: the cycle is the point, the other docs are side notes.
+> Guide: not a walk stop — deliver the fenced block verbatim only when the user takes the dive option at the shelf fork. Shallow on purpose: the cycle is the point, the other docs are side notes. This one card covers the two rooms inside — the fork does not go deeper here.
 
 ```
 ── Tour Stop — WORKSPACE/AGENT_WORKSPACE/PROJECTS/ACTIVE/First Project (overwrite in place)/

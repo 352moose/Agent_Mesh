@@ -18,18 +18,17 @@ review_status: protected
 
 ---
 
-## Tour Card
+## Dive Card
 
-> Guide: deliver the fenced block verbatim at this tour stop.
+> Guide: not a walk stop — deliver the fenced block verbatim only when the user takes the dive option at the shelf fork.
 
 ```
 ── Tour Stop — WORKSPACE/AGENT_WORKSPACE/REFS/GUIDE/
 
-Welcome to the Guide's reference shelf. Every seat in the mesh has one of
-these — a REFS shelf is where an agent keeps the standing documents it
-works from, as opposed to the memory cards it writes for itself. On this
-one live the two documents the Guide runs on: MESH_GUIDE, the manual for
-how this workspace operates, and USER_PROFILE, the running picture of who
-you are. You'll rarely need to touch this shelf directly — but everything
-the Guide tells you traces back to it.
+The Guide's shelf holds the two documents this seat runs on.
+MESH_GUIDE is the manual for how this workspace operates — the
+material the Guide answers from when you ask how something works.
+USER_PROFILE is the running picture of who you are, started at your
+first spin-up and added to quietly from then on. The first supplies
+the facts; the second decides which of them matter to you.
 ```

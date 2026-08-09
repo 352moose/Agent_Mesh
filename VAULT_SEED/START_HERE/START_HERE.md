@@ -59,8 +59,13 @@ You are stateless with respect to this folder — it assumes nothing about you e
 ├── START_HERE/                ← the front door: this file + one file per fetch line — the trigger IS the filename
 └── WORKSPACE/
     ├── MASTER_INDEX.md        ← doc index: rows are cron-owned, agents touch description fields only
-    ├── AGENT_WORKSPACE/
-    │   ├── AGENTS/            ← the machinery: RULES, BOOTSTRAPS, SUB_AGENTS, DESKS, MEMORY_CARDS, TEMPLATES, PROTOCOLS
+    ├── AGENT_WORKSPACE/       ← the engine room: the agent team lives and works in here
+    │   ├── AGENTS/            ← the machinery, five shelves
+    │   │   ├── BOOTSTRAPS/    ← one startup file per seat, with RULES and SUB_AGENTS beside it
+    │   │   ├── DESKS/         ← one inbox per seat, and the sweep that clears them
+    │   │   ├── MEMORY_CARDS/  ← what a seat carries between sessions: ACTIVE, SESSION, STATIC
+    │   │   ├── TEMPLATES/     ← the blank forms everything new is stamped from
+    │   │   └── PROTOCOLS/     ← per-seat procedures, and the BLUEPRINTS of what was built here
     │   ├── REFS/              ← per-seat reference shelves: GUIDE, DIRECTOR, OVERSEER, CLIDE
     │   └── PROJECTS/          ← the work: ACTIVE, PARKED, SIDE_QUESTS, GRAVEYARD
     ├── OPERATOR_WORKSPACE/    ← the human's rooms: DESK, NOTES, ARCHIVE, CRONS, TOOLS

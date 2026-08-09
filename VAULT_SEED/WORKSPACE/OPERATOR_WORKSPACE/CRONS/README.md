@@ -58,9 +58,9 @@ A job is live only when a REAL scheduled tick advances its `LOGS/` stamp. Intera
 
 ---
 
-## Tour Card
+## Dive Card
 
-> Guide: deliver the fenced block verbatim at this tour stop.
+> Guide: not a walk stop — deliver the fenced block verbatim only when the user takes the dive option at the shelf fork. This one card covers all three shelves — the walk does not stop at each.
 
 ```
 ── Tour Stop — WORKSPACE/OPERATOR_WORKSPACE/CRONS/

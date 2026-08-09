@@ -21,3 +21,23 @@ review_status: protected
 ## Tour
 
 > Covered by the bundled card at `../README.md` — the walk does not stop here.
+
+---
+
+## Dive Card
+
+> Guide: not a walk stop — deliver the fenced block verbatim only when the user takes the dive option at the shelf fork.
+
+```
+── Tour Stop — PROJECTS/ACTIVE/
+
+What's being built right now. Listing this folder answers "what are we
+working on" without anyone having to remember.
+
+It is the mesh's default job list, and it is meant to stay short. A
+project sitting here that nobody has touched in weeks isn't active,
+it's parked — and the difference matters, because seats read this
+folder to decide what deserves attention. Moving something out isn't
+giving up on it; it's telling the truth about where your attention
+actually is.
+```

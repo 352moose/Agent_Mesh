@@ -7,7 +7,7 @@ title: Agent workspace — the engine room
 
 # AGENT_WORKSPACE
 
-The agent system's root. `AGENTS/` holds the machinery (BOOTSTRAPS, RULES, DESKS, MEMORY_CARDS, TEMPLATES), `REFS/` the per-seat reference shelves, `PROJECTS/` the work (ACTIVE, PARKED, SIDE_QUESTS, GRAVEYARD). This README exists so the tour has a card here.
+The agent system's root. `AGENTS/` holds the machinery (BOOTSTRAPS, RULES, SUB_AGENTS, DESKS, MEMORY_CARDS, TEMPLATES, PROTOCOLS, BLUEPRINTS), `REFS/` the per-seat reference shelves, `PROJECTS/` the work (ACTIVE, PARKED, SIDE_QUESTS, GRAVEYARD). This README exists so the tour has a card here.
 
 ---
 

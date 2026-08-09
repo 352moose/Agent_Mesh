@@ -11,9 +11,9 @@ Cold storage, user-owned. Four shelves: BACKUPS (manual safety copies), HISTORY 
 
 ---
 
-## Tour Card
+## Dive Card
 
-> Guide: deliver the fenced block verbatim at this tour stop.
+> Guide: not a walk stop — deliver the fenced block verbatim only when the user takes the dive option at the shelf fork. This one card covers all four shelves — the walk does not stop at each.
 
 ```
 ── Tour Stop — WORKSPACE/OPERATOR_WORKSPACE/ARCHIVE/
@@ -26,5 +26,6 @@ lands so results outlive the chat that produced them. REFS is where
 the settled versions crystallize — frameworks, teardowns, worked math
 you'll reason from again. Nothing in here churns: files land when
 they've earned keeping, and they stay as you left them. Each shelf
-has its own stop, so let's walk them.
+keeps one kind of thing, which is what makes cold storage findable
+years later.
 ```

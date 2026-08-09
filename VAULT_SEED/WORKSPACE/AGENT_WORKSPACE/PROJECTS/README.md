@@ -30,6 +30,7 @@ that travel light, and graduate to ACTIVE if they grow real legs.
 And the GRAVEYARD is where finished stories rest — every ended
 project kept whole and readable, because this workspace never burns
 its own history. Projects move between rooms as whole folders;
-nothing here ever gets deleted. Next stop: inside a project folder,
-to see how a build actually runs.
+nothing here ever gets deleted. Open any project folder and the same
+handful of files repeat, in the same places — that sameness is what
+lets a seat pick up a build it has never seen before.
 ```

@@ -14,7 +14,7 @@ The mesh's blank forms: `BOOTSTRAP_template/` (standard boot shape — the new-a
 
 ## Tour Card
 
-> Guide: deliver the fenced block verbatim at this tour stop.
+> Guide: deliver the fenced block verbatim at this tour stop. This one card covers all four forms — the walk does not stop at each.
 
 ```
 ── Tour Stop — WORKSPACE/AGENT_WORKSPACE/AGENTS/TEMPLATES/

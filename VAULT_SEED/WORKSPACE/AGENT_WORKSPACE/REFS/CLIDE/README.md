@@ -19,22 +19,21 @@ review_status: protected
 
 ---
 
-## Tour Card
+## Dive Card
 
-> Guide: deliver the fenced block verbatim at this tour stop.
+> Guide: not a walk stop — deliver the fenced block verbatim only when the user takes the dive option at the shelf fork.
 
 ```
 ── Tour Stop — WORKSPACE/AGENT_WORKSPACE/REFS/CLIDE/
 
-This is CLIde's reference shelf — same idea as the Guide's, but on the
-build side. What lands here are references that outlive a single job:
-platform gotchas, toolchain notes, anything one build teaches that the
-next build will need. It starts empty and fills as you build. One thing
-sets this shelf apart: CLIde keeps no seat memory cards — its working
-memory lives inside each project — so this is the only place its
-cross-project knowledge accumulates. Facts about a single project stay
-on that project's card; only what travels between projects earns a
-spot here. Its first job is already queued: when you and the Director
-open the starter build, the first action prompt wakes CLIde inside
-that project.
+CLIde's shelf is the build side of the same idea: references that
+outlive a single job — platform gotchas, toolchain notes, anything
+one build teaches that the next build will need. One thing sets it
+apart. CLIde keeps no seat memory cards at all; its working memory
+lives inside each project. So this is the only place its
+cross-project knowledge accumulates, which makes the split matter —
+facts about a single project stay on that project's card, and only
+what travels between projects earns a spot here. Its first job is
+already queued: when you and the Director open the starter build,
+the first action prompt wakes CLIde inside that project.
 ```

@@ -12,9 +12,9 @@ review_status: protected
 
 ---
 
-## Tour Card
+## Dive Card
 
-> Guide: deliver the fenced block verbatim at this tour stop. This one card covers all three seat folders — the walk does not stop at each.
+> Guide: not a walk stop — deliver the fenced block verbatim only when the user takes the dive option at the shelf fork. This one card covers all three seat folders — the walk does not stop at each.
 
 ```
 ── Tour Stop — WORKSPACE/AGENT_WORKSPACE/AGENTS/MEMORY_CARDS/STATIC_MEMORY/

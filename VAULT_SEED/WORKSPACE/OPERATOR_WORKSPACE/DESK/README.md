@@ -11,9 +11,9 @@ The human's inbox. Agents deliver here — reports, notes, briefs — typed file
 
 ---
 
-## Tour Card
+## Dive Card
 
-> Guide: deliver the fenced block verbatim at this tour stop.
+> Guide: not a walk stop — deliver the fenced block verbatim only when the user takes the dive option at the shelf fork.
 
 ```
 ── Tour Stop — WORKSPACE/OPERATOR_WORKSPACE/DESK/

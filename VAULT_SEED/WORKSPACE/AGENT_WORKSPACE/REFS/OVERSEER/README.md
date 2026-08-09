@@ -18,19 +18,18 @@ review_status: protected
 
 ---
 
-## Tour Card
+## Dive Card
 
-> Guide: deliver the fenced block verbatim at this tour stop.
+> Guide: not a walk stop — deliver the fenced block verbatim only when the user takes the dive option at the shelf fork.
 
 ```
 ── Tour Stop — WORKSPACE/AGENT_WORKSPACE/REFS/OVERSEER/
 
-This is the Overseer's reference shelf. The Overseer keeps the workspace
-itself — structure, conventions, adding new seats — and this is where its
-standing references accumulate: conformance baselines, audit references,
-research it absorbs while keeping the mesh consistent. Right now it holds
-only this README, and that's expected — it fills as the Overseer works.
-When a doc lands here, the Overseer saves a pointer to it on its ACTIVE
-memory card, so nothing on the shelf gets lost. You won't work in this
-folder yourself, but any audit you ask for will trace back to it.
+The Overseer keeps the workspace itself — its structure, its
+conventions, and the work of adding new seats — and this shelf is
+where the references behind that accumulate: conformance baselines,
+audit references, research absorbed while keeping the mesh
+consistent. It holds only this README today. When a doc does land
+here, the Overseer saves a pointer to it on its ACTIVE memory card,
+so a shelf that grows quietly never loses track of itself.
 ```

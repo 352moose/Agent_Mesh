@@ -14,7 +14,7 @@ The mesh's memory room — three tiers (SESSION scratch, STATIC archive, ACTIVE 
 
 ## Tour Card
 
-> Guide: deliver the fenced block verbatim at this tour stop.
+> Guide: deliver the fenced block verbatim at this tour stop. This one card covers all three memory shelves — the walk does not stop at each.
 
 ```
 ── Tour Stop — WORKSPACE/AGENT_WORKSPACE/AGENTS/MEMORY_CARDS/

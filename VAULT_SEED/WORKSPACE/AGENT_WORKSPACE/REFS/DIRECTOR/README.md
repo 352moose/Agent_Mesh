@@ -18,20 +18,19 @@ review_status: protected
 
 ---
 
-## Tour Card
+## Dive Card
 
-> Guide: deliver the fenced block verbatim at this tour stop.
+> Guide: not a walk stop — deliver the fenced block verbatim only when the user takes the dive option at the shelf fork.
 
 ```
 ── Tour Stop — WORKSPACE/AGENT_WORKSPACE/REFS/DIRECTOR/
 
-This is the Director's reference shelf — the standing documents the
-planning seat works from. Its anchor is SECURITY_CHECKLIST: at the
-Director's first spin-up you answer a short security questionnaire, and
-the Director researches official sources to build a checklist shaped to
-the surfaces you actually build on. From then on, every build prompt the
-Director writes distills just the gates that apply to that step from this
-file — security rides along with the work instead of being an
-afterthought. Other planning baselines and absorbed research land here
-over time.
+The Director's shelf is anchored by SECURITY_CHECKLIST. At the
+Director's first spin-up you answer a short security questionnaire,
+and the Director researches official sources to build a checklist
+shaped to the surfaces you actually build on. From then on, every
+build prompt it writes distills just the gates that apply to that
+step from this file — security rides along with the work instead of
+being an afterthought. Other planning baselines and absorbed
+research land here over time.
 ```
