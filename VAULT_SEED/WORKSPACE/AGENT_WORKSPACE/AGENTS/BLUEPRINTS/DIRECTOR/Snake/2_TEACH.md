@@ -20,17 +20,17 @@ review_status: protected
 
 > What the user needs in order to judge whether this is a build they want. Not how it works — what it is, and what it changes on their machine.
 
-- This builds a small game you can play. Classic Snake: a line that grows as it eats, and dies if it hits itself.
-- The game is real. It is not a demo or a mock-up, and it runs on your machine when it is done.
-- It takes three rounds. Each round ends with you playing what was just built and saying whether it works.
-- Round one is a window with a snake that moves when you press the arrow keys. Nothing else.
-- Round two adds food, growth, and a score you can see.
-- Round three is whatever you want polished, plus a high score the game remembers after you close it.
-- The reason for building a game rather than something useful is that you can tell instantly whether it worked. No report can convince you a game is fun to play.
-- The workflow is the actual lesson. The Director writes one instruction at a time, the building seat does exactly that and reports back, and you check the result before anything else happens.
-- That loop is what every later project runs on. This is the cheapest place to learn what it feels like when it goes right, and what a report looks like when it goes wrong.
-- Nothing is installed. Nothing leaves your machine. The game has no internet access and the only files written are inside the project folder.
-- If you stop after round one, you still have a window with a moving snake and you have seen one full cycle. Stopping early is a fine outcome.
+- This shows you how work gets built here, by doing it three times on something small.
+- Each round is the same exchange: I write one instruction, the building seat does exactly that and writes back what actually happened, and you check whether the two match.
+- That exchange is the thing you are here to see. It is what every real project in this workspace runs on.
+- What the rounds happen to produce is a game of Snake — a line that grows as it eats and dies if it hits itself.
+- The game is real and it runs on your machine, but it is the excuse, not the goal. It was picked because a game is the one thing you can judge in four seconds without trusting anybody's report.
+- Round one is a window with a snake that moves when you press the arrow keys. Round two adds food, growth, and a score. Round three is whatever you want polished, plus a high score that survives closing the game.
+- The part that matters is what you do at the end of each round: play it, then read what the report claimed, and see whether it told you the truth.
+- A round where the game came out broken and the report said so is a round that went well. That is the loop working.
+- A round where the game came out fine and you never read the report is a round that taught you nothing, and nothing here will warn you about that.
+- Nothing is installed. Nothing leaves your machine. There is no internet access and the only files written are inside the project folder.
+- If you stop after round one you have still seen one full exchange, which is most of the point. Stopping early is a fine outcome.
 
 ---
 

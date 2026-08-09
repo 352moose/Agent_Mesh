@@ -41,8 +41,10 @@ document index current, and the one that clears absorbed files off
 the desks. If you ever want either running somewhere else, these
 folders are how that happens.
 
-The third is the Director's, and it is the odd one out — the
-tutorial game, written before anyone built it rather than after.
-Its record of what broke is empty because nothing has broken yet.
-Whoever plays the first round is the one who fills it in.
+The third is the Director's, and it is the odd one out twice over.
+What it teaches is not a machine but a way of working — one
+instruction out, one honest report back, one check by you — and it
+was written before anyone ran it rather than after. Its record of
+what broke is empty because nothing has broken yet. Whoever runs
+the first round is the one who fills it in.
 ```

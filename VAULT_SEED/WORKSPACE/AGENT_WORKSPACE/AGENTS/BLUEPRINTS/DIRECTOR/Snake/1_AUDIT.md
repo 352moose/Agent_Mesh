@@ -15,12 +15,12 @@ review_status: protected
 
 | Check | Result on the origin machine |
 | ---------------- | ------------------------------------------------------------------------------ |
-| Readable in full | Pass — the game is authored locally by CLIde from `3_BUILD/PROCEDURE.md`; no code ships in this tree and nothing is fetched |
+| Readable in full | Pass — the code is authored locally by CLIde during the cycles; no code ships in this tree and nothing is fetched |
 | Scope | Pass — writes only inside the project folder the Director stood up. The high score in cycle 3 is a file in that same folder |
 | Privilege | Pass — no elevation, no installer, no system settings touched. A window opens; that is the whole surface |
 | Remote code | Pass — standard library only. The default fork uses a GUI toolkit shipped with the interpreter, so nothing is downloaded |
 | Secrets | Pass — reads no credentials, writes none, transmits nothing. The game has no network access at all |
-| Self-consistency | **Answer per machine** — the Acceptance section of `3_BUILD/PROCEDURE.md` is the user playing the game. Nothing here has been built yet, so this check has never been satisfied by evidence |
+| Self-consistency | **Answer per machine** — the Acceptance section of `3_BUILD/PROCEDURE.md` is the user verifying a report against what they actually got, which is also what this blueprint exists to produce. Nothing here has been run yet, so this check has never been satisfied by evidence |
 | Environment | Answer per machine — see the gates in `3_BUILD/PROCEDURE.md` |
 
 ---

@@ -8,7 +8,7 @@ review_status: protected
 
 # Snake — tutorial project blueprint
 
-Case study for the tutorial build offered at the Director's first spin-up. Read `0_ORIENTATION` through `3_BUILD` in order. Unbuilt as of writing — both evidence registers are empty on purpose.
+Case study for the tutorial run offered at the Director's first spin-up. The deliverable is a demonstrated Director→CLIde cycle; the game is the vehicle it runs on. Read `0_ORIENTATION` through `3_BUILD` in order. Unbuilt as of writing — both evidence registers are empty on purpose.
 
 ---
 
@@ -19,11 +19,18 @@ Case study for the tutorial build offered at the Director's first spin-up. Read 
 ```
 ── Tour Stop — AGENTS/BLUEPRINTS/DIRECTOR/Snake/
 
-This blueprint builds a game of Snake across three rounds, and it is
-the one the Director offers a user who arrives with nothing queued.
-The game is real and it runs on the machine when it is done. The
-reason it is a game is that nobody needs a report to tell them
-whether one is working.
+This blueprint demonstrates how work actually gets built here, and
+it is the one the Director offers a user who arrives with nothing
+queued. Three rounds, each one a single instruction out and a
+written report back, and the user checking the report against what
+they actually got. That exchange is the deliverable.
+
+A game of Snake is what the rounds happen to produce. It is real
+and it runs on the machine, but it is the vehicle, not the point —
+chosen because a game is the one thing nobody needs a report to
+evaluate. A round that produces a broken game and an honest report
+has done its job. A round that produces a working game and a report
+nobody read has not.
 
 It is also the only blueprint in here that runs backwards. Every
 other one was written after the build, from a machine where the

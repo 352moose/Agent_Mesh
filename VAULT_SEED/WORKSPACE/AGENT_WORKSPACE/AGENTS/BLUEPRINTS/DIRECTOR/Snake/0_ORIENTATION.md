@@ -17,7 +17,18 @@ review_status: protected
 
 ## What This Builds
 
-A playable Snake game, built across three Director→CLIde cycles, on the user's own machine and preferred stack. The game is the visible output. The workflow is the actual lesson: one bounded action prompt, one build, one report the user verifies by playing, then the next.
+A worked demonstration of the Director→CLIde cycle, run three times against real code on the user's own machine.
+
+**The deliverable is the loop, not the program.** What a completed run leaves behind is three `ACTION_PROMPT`s, three `ACTION_REPORT`s, a `STATE.md` that moved, and a user who has checked a report against reality three times and knows what that feels like. Snake is the vehicle. It was chosen because a game is the one artifact nobody needs a report to evaluate — the user can tell in four seconds whether the cycle delivered what it claimed.
+
+The consequence is worth stating plainly, because it inverts the usual measure of success:
+
+| Run | Verdict |
+| --- | ------- |
+| Broken game, accurate report the user caught the problem from | **Succeeded** — the loop did its job and the user exercised the check |
+| Working game, report nobody read | **Failed** — the demonstration did not happen, and nothing in the mesh will say so |
+
+Do not close a cycle on a working program. Close it on a verified report.
 
 ---
 
