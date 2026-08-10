@@ -24,7 +24,7 @@ review_status: protected
 | 3 | `AGENTS/BOOTSTRAPS/` | `AGENTS/RULES/` · `BOOTSTRAPS/CLIDE/` · `BOOTSTRAPS/DIRECTOR/` · `BOOTSTRAPS/GUIDE/` · `BOOTSTRAPS/OVERSEER/` · `AGENTS/SUB_AGENTS/` | — |
 | 4 | `AGENTS/DESKS/` | `DESKS/DIRECTORS_DESK/` · `DESKS/GUIDES_DESK/` · `DESKS/OVERSEERS_DESK/` · `TRASH/Desk_Sweep/` | _container_ `TRASH/` |
 | 5 | `AGENTS/MEMORY_CARDS/` | `MEMORY_CARDS/ACTIVE_MEMORY/` · `MEMORY_CARDS/SESSION_MEMORY/` · `MEMORY_CARDS/STATIC_MEMORY/` | — |
-| 6 | `AGENTS/TEMPLATES/` | `TEMPLATES/BOOTSTRAP_template/` · `TEMPLATES/Memory_templates/` · `TEMPLATES/PROJECT_template/` · `TEMPLATES/SUBAGENT_template/` | — |
+| 6 | `AGENTS/TEMPLATES/` | `TEMPLATES/BOOTSTRAP_template/` · `TEMPLATES/Memory_templates/` · `TEMPLATES/PROJECT_template/` · `TEMPLATES/SIDE_QUEST_template/` · `TEMPLATES/SUBAGENT_template/` | — |
 | 7 | `AGENTS/PROTOCOLS/` | `PROTOCOLS/CLIde/` · `PROTOCOLS/DIRECTOR/` · `PROTOCOLS/GUIDE/` · `PROTOCOLS/OVERSEER/` · `AGENTS/BLUEPRINTS/` | — |
 | 8 | `AGENT_WORKSPACE/REFS/` | `REFS/GUIDE/` · `REFS/DIRECTOR/` · `REFS/OVERSEER/` · `REFS/CLIDE/` | — |
 | 9 | `PROJECTS/` | `PROJECTS/ACTIVE/` · `PROJECTS/PARKED/` · `PROJECTS/SIDE_QUESTS/` · `PROJECTS/GRAVEYARD/` | — |
@@ -85,6 +85,7 @@ review_status: protected
 | `PROJECT_template/BUILD/CLIDE/` | `PROJECT_template/BUILD/` | — | — |
 | `PROJECT_template/BUILD/CODEBASE/` | `PROJECT_template/BUILD/` | — | — |
 | `PROJECT_template/REFS/` | `TEMPLATES/PROJECT_template/` | — | — |
+| `TEMPLATES/SIDE_QUEST_template/` | stop 6 | — | `SIDE_QUEST_template/BUILD/` · `SIDE_QUEST_template/BUILD/CLIDE/` |
 | `TEMPLATES/SUBAGENT_template/` | stop 6 | — | — |
 
 ### Off stop 7 — `AGENTS/PROTOCOLS/`
@@ -95,10 +96,10 @@ review_status: protected
 | `PROTOCOLS/DIRECTOR/` | stop 7 | — | — |
 | `PROTOCOLS/GUIDE/` | stop 7 | — | — |
 | `PROTOCOLS/OVERSEER/` | stop 7 | — | — |
-| `AGENTS/BLUEPRINTS/` | stop 7 | `BLUEPRINTS/OVERSEER/Master_index_cron/` · `BLUEPRINTS/OVERSEER/Desk_sweep_cron/` · `BLUEPRINTS/DIRECTOR/Snake/` | _containers_ `BLUEPRINTS/OVERSEER/` `BLUEPRINTS/DIRECTOR/` |
+| `AGENTS/BLUEPRINTS/` | stop 7 | `BLUEPRINTS/OVERSEER/Master_index_cron/` · `BLUEPRINTS/OVERSEER/Desk_sweep_cron/` · `BLUEPRINTS/DIRECTOR/Tutorial_build/` | _containers_ `BLUEPRINTS/OVERSEER/` `BLUEPRINTS/DIRECTOR/` |
 | `BLUEPRINTS/OVERSEER/Master_index_cron/` | `AGENTS/BLUEPRINTS/` | — | _container_ `Master_index_cron/3_BUILD/` |
 | `BLUEPRINTS/OVERSEER/Desk_sweep_cron/` | `AGENTS/BLUEPRINTS/` | — | _container_ `Desk_sweep_cron/3_BUILD/` |
-| `BLUEPRINTS/DIRECTOR/Snake/` | `AGENTS/BLUEPRINTS/` | — | _container_ `Snake/3_BUILD/` |
+| `BLUEPRINTS/DIRECTOR/Tutorial_build/` | `AGENTS/BLUEPRINTS/` | — | _container_ `Tutorial_build/3_BUILD/` |
 
 ### Off stop 8 — `AGENT_WORKSPACE/REFS/`
 

@@ -9,7 +9,7 @@ review_status: protected
 
 # SECURITY CHECKLIST
 
-> Built at Director's first spin-up from the security questionnaire + official-source research pass. Skeleton until then. Every ACTION_PROMPT distills from this file — it is the source the Security Check section draws on.
+> Built from the security questionnaire + official-source research pass, offered at Director's first spin-up. Skeleton until then, and a skeleton is a working state — see the just-in-time rule below. Every ACTION_PROMPT distills from this file — it is the source the Security Check section draws on.
 
 ## Page Rules
 
@@ -17,6 +17,7 @@ review_status: protected
 | -------------------------------------------------------------------------------------------------------------------------- |
 | One section per surface; one line per gate; each gate cites its official source                                            |
 | Every ACTION_PROMPT distills ONLY the gates that apply to that step — never paste the whole checklist                      |
+| **Just in time when the questionnaire was declined** — a build step that touches a surface with no section here runs that surface's research pass BEFORE the prompt is written, then the step proceeds. One surface, at the moment it is first touched; never a catch-up sweep of the others |
 | New surface or stack adopted = questionnaire delta + fresh research pass; write an adjacent doc, save pointer to active.md |
 | Official sources only — vendor security guides, OWASP, framework security pages; no blogs, no forums                       |
 

@@ -1,12 +1,12 @@
 ---
 type: note
-scope: BLUEPRINTS/DIRECTOR/Snake
+scope: BLUEPRINTS/DIRECTOR/Tutorial_build
 maintained_by: DIRECTOR
 created: 2026/08/09
 review_status: protected
 ---
 
-# Snake — tutorial project blueprint
+# Tutorial build — blueprint
 
 Case study for the tutorial run offered at the Director's first spin-up. The deliverable is a demonstrated Director→CLIde cycle; the game is the vehicle it runs on. Read `0_ORIENTATION` through `3_BUILD` in order. Unbuilt as of writing — both evidence registers are empty on purpose.
 
@@ -17,7 +17,7 @@ Case study for the tutorial run offered at the Director's first spin-up. The del
 > Guide: not a walk stop — deliver the fenced block verbatim only when the user takes the dive option at the shelf fork. This one card covers the numbered files inside — the fork does not go deeper here.
 
 ```
-── Tour Stop — AGENTS/BLUEPRINTS/DIRECTOR/Snake/
+── Tour Stop — AGENTS/BLUEPRINTS/DIRECTOR/Tutorial_build/
 
 This blueprint demonstrates how work actually gets built here, and
 it is the one the Director offers a user who arrives with nothing

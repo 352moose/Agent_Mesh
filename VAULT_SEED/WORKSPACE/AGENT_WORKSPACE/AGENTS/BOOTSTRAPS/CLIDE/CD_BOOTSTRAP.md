@@ -88,7 +88,7 @@ review_status: protected
 
 ## PATHS
 
-> Every path relative to THIS FILE — resolve from its location. `[PROJECT]` comes from the ACTION_PROMPT.
+> Every path relative to THIS FILE — resolve from its location. `[PROJECT]` is the target the operator names at the Project select gate.
 
 | Item                   | Path                                                                    |
 | ---------------------- | ------------------------------------------------------------------------ |

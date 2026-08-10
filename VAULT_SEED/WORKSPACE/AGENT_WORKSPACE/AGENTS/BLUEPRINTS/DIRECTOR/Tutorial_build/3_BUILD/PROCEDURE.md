@@ -1,6 +1,6 @@
 ---
 type: blueprint_procedure
-name: Snake — tutorial project
+name: Tutorial build
 created: 2026/08/09
 updated: 2026/08/09
 review_status: protected
@@ -9,6 +9,8 @@ review_status: protected
 # Procedure — Gates, Forks, and Why
 
 > Three Director→CLIde cycles. The Director never writes the game; it writes one `ACTION_PROMPT` per cycle, reads the `ACTION_REPORT` that comes back, and lets the user's own check decide whether the cycle closed.
+
+> **Where the work lives.** Copy `AGENTS/TEMPLATES/SIDE_QUEST_template/` into `PROJECTS/ACTIVE/` as `Tutorial build/` before cycle 1 — this is a side quest, not the user's first project, and it must not consume the pre-placed project folder. Every prompt is written to `PROJECTS/ACTIVE/Tutorial build/BUILD/ACTION_PROMPT.md`, because that is the only place CLIde looks. When the three rounds close, move the folder whole to `PROJECTS/SIDE_QUESTS/`.
 
 > **What is being produced here is the exchange, not the program.** The three cycles below are cut for what they demonstrate about the loop — not for what they add to the game. Read them that way, and do not optimise them toward a better game.
 
@@ -85,9 +87,13 @@ review_status: protected
 
 ## Acceptance
 
+> **The deliverable is user understanding and turns landing.** Not the game, and not the paperwork. A run succeeded if the user can now move between seats on their own and each handoff arrived where it was aimed. Measure against those two things; everything below is how they are checked.
+
 | Rule |
 | ---- |
 | A cycle closes when the user has verified the report against reality — not when the game works, and not when the report says it does |
+| A turn lands when the handoff completes: the prompt reached CLIde in its own session, the report came back, and the user read it. A turn that did not land is the cycle to repeat — a game that came out wrong is not |
+| The user's understanding is the other half, and it is checkable: by round three they should reach CLIde without being told how. If they still need walking through the pivot, run the rounds until they do not, whatever the game looks like |
 | A cycle that produced a broken game and an accurate report has SUCCEEDED. Record it that way; do not retry it as a failure |
 | A cycle whose report went unread has failed even if the game is perfect, and nothing in the mesh will surface that — the Director says so out loud rather than letting it pass |
 | `ACTION_REPORT` records what actually happened, including anything that did not work; a report that matches its prompt exactly every time is a report nobody is reading |

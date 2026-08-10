@@ -1,6 +1,6 @@
 ---
 type: blueprint_audit
-name: Snake — tutorial project
+name: Tutorial build
 created: 2026/08/09
 review_status: protected
 ---

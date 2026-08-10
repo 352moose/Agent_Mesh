@@ -14,6 +14,7 @@ review_status: protected
 |---|
 | One folder per project; the folder name IS the project name |
 | **New project = copy the template:** copy `../../AGENTS/TEMPLATES/PROJECT_template/` into this folder as `[project name]/`, then build from the skeleton — fill what is settled, leave the rest blank; each fixture's page rules govern from there |
+| **Anything actively being worked lives here, whatever its shape** — a side quest moves in from SIDE_QUESTS while it is live and back out when it goes quiet. CLIde resolves job paths under this folder only |
 | A project leaves this folder by moving whole to a sibling tier — PARKED, SIDE_QUESTS, or GRAVEYARD — never by deletion |
 
 ---

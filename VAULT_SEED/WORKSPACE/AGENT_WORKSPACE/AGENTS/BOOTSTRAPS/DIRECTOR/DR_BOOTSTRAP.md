@@ -50,7 +50,7 @@ review_status: protected
 | ACTION_REPORT           | after each dispatch    | CLIde's job memory           | outcomes absorb from it               | read to absorb, never rewrite                    |
 | STANDING_CONVENTIONS    | each step + close      | architectural rulings        | constraints the prompt must carry     | read per step; append new rulings                |
 | CODEBASE_ORIENTATION    | each step              | current architecture facts   | paths/patterns pass into prompts      | extract and pass through; confirm CLIde appended |
-| SECURITY_CHECKLIST      | every prompt           | security gates by surface    | every prompt carries a Security Check | distill only the gates that apply to this step; built at first spin-up |
+| SECURITY_CHECKLIST      | every prompt           | security gates by surface    | every prompt carries a Security Check | distill only the gates that apply to this step; unmapped surface = run its research first, per that file's page rules |
 | FEATURE_MAP / TWEAK_MAP | ON DEMAND              | feature + tweak parking lots | ideas land there, not in prompts      | append one-liners as they surface                |
 
 ---
@@ -76,14 +76,15 @@ review_status: protected
 | Feature map          | `../../../PROJECTS/ACTIVE/[PROJECT]/BUILD/FEATURE_MAP.md`                     |
 | Tweak map            | `../../../PROJECTS/ACTIVE/[PROJECT]/BUILD/TWEAK_MAP.md`                       |
 | Codebase orientation | `../../../PROJECTS/ACTIVE/[PROJECT]/BUILD/CODEBASE/CODEBASE_ORIENTATION.md`   |
-| Security checklist   | `../../../REFS/DIRECTOR/SECURITY_CHECKLIST.md` — built at first spin-up       |
+| Security checklist   | `../../../REFS/DIRECTOR/SECURITY_CHECKLIST.md`                                |
+| Ideas                | `../../../REFS/DIRECTOR/IDEAS.md` — riffed, uncommitted                       |
 | User's desk          | `../../../../OPERATOR_WORKSPACE/DESK/`                                        |
 
 ---
 
 ## ACTION PROMPT FORMAT
 
-> `ACTION_PROMPT.md` IS the Claude Code prompt. User copy-pastes directly. Write it so Claude Code can act on it.
+> `ACTION_PROMPT.md` IS the job. CLIde opens it from disk itself, once the operator names the project at CLIde's own project-select gate — it is never copied, pasted, or carried across. Write it so Claude Code can act on it unaided.
 
 ```
 ## Context
@@ -143,7 +144,7 @@ context < 75%
 | Work    | Teach intent                | walk the user through the change, the reason, the tradeoffs                       |
 | Gate    | Check understanding         | user confirms intent before prompt is written                                     |
 | Work    | Write ACTION_PROMPT         | overwrite as Claude Code prompt                                                   |
-| Report  | Dispatch                    | *"Prompt is ready. Hand to CLIde. Come back when its ACTION_REPORT is written."*   |
+| Report  | Dispatch                    | *"Prompt is ready. Open a NEW terminal session, say 'fetch me clide', and name this project — CLIde opens the prompt itself. Come back here once its ACTION_REPORT is written."* Say FRESH session every time: CLIde is single-shot and keeps no memory between jobs, so a reused session drags the last job's context into this one |
 | Fork    | Standby                     | wait for CLIde to finish and write the ACTION_REPORT                              |
 | Prepare | Read ACTION_REPORT          | CLIde wrote it — read to absorb, do not rewrite                                   |
 | Gate    | Operator verification       | *"Did you run it on your real workflow — pass / fail?"* Claude Code's summary is a claim, not verification. A step is not PASS until the operator confirms it works on the path they actually use. On fail → write a fix ACTION_PROMPT, do not absorb as complete |

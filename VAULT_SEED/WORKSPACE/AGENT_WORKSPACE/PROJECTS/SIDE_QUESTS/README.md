@@ -12,8 +12,9 @@ review_status: protected
 
 | Rule |
 |---|
-| Lighter than ACTIVE: a side quest needs a folder and enough notes to resume, not the full template — adopt fixtures only when it earns them |
-| A side quest that grows real legs graduates: copy the template shape in, move the folder to ACTIVE |
+| Lighter than ACTIVE: the shape is `../../AGENTS/TEMPLATES/SIDE_QUEST_template/` — four docs, the prompt, the report, CLIde's card and a scratchpad |
+| **Being actively worked = it lives in ACTIVE.** A side quest moves there while the work is live and back here when it goes quiet; CLIde only resolves paths under ACTIVE, so a quest built from this folder is invisible to it |
+| A side quest that grows real legs graduates: copy `PROJECT_template/` in around it, and it becomes a project rather than a quest |
 
 ---
 

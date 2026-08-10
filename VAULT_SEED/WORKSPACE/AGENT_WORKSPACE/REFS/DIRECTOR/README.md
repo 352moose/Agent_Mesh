@@ -8,7 +8,7 @@ review_status: protected
 
 # REFS — DIRECTOR
 
-> Director's reference shelf. Standing reference docs this seat builds or absorbs — security references, planning baselines, absorbed research. `SECURITY_CHECKLIST.md` lives here, built for this user's surfaces at first spin-up and distilled into every action prompt.
+> Director's reference shelf. Standing reference docs this seat builds or absorbs — security references, planning baselines, absorbed research. `SECURITY_CHECKLIST.md` lives here, built for this user's surfaces and distilled into every action prompt; `IDEAS.md` holds what riffing turned up before any of it became a project.
 
 | Rule |
 |---|
@@ -26,11 +26,14 @@ review_status: protected
 ── Tour Stop — WORKSPACE/AGENT_WORKSPACE/REFS/DIRECTOR/
 
 The Director's shelf is anchored by SECURITY_CHECKLIST. At the
-Director's first spin-up you answer a short security questionnaire,
-and the Director researches official sources to build a checklist
-shaped to the surfaces you actually build on. From then on, every
-build prompt it writes distills just the gates that apply to that
-step from this file — security rides along with the work instead of
-being an afterthought. Other planning baselines and absorbed
-research land here over time.
+Director's first spin-up you can answer a short security
+questionnaire, and the Director researches official sources to build
+a checklist shaped to the surfaces you actually build on. Skip it and
+the file fills itself instead — the first build that touches a
+surface triggers that surface's research before the work goes out.
+Either way, every build prompt distills just the gates that apply to
+that step, so security rides along with the work instead of being an
+afterthought. IDEAS sits beside it, holding what riffing turned up
+before any of it became a project. Other planning baselines and
+absorbed research land here over time.
 ```

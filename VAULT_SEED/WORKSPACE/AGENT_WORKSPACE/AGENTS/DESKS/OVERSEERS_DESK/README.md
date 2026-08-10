@@ -21,8 +21,12 @@ The Overseer's inbox. Typed files land here per the RULEBOOK desk protocol — r
 
 The Overseer's desk — the inbox for the seat that maintains the mesh
 itself. What lands here concerns the workspace rather than any one
-project — structure notices, audits, and the Overseer's own first
-spin-up, the workspace setup that verifies the folder map, tests the
-tooling, and proves this whole desk channel flows by walking one real
-file through its full lifecycle before calling it live.
+project: structure notices, audits, and the Overseer's own first
+spin-up.
+
+That setup is a walk through the seat's own rooms, and each piece of
+work happens in the room it belongs to — the frame checked at the
+workspace root, the scheduled jobs built in the crons room, and this
+desk channel proved standing right here by walking one real file
+through its full lifecycle before anyone calls it live.
 ```

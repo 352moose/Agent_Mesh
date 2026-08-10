@@ -22,12 +22,17 @@ This seat's bootstrap, loaded by its fetch line. Maintained by the Overseer; nev
 The Overseer's startup file — the seat that maintains the workspace
 itself rather than anything being built inside it.
 
-It audits, it patches the shared files, and it is the only seat that
-edits the rulebook, the templates, and the other seats' startup files.
-It also builds new seats when one is needed. Its own file carries a
-hard constraint: it proposes changes and waits for your word before
-overwriting anything protected.
+Its work is rarely one edit. Changing a rule, a template, or another
+seat's startup file pulls on every document that depended on the old
+shape, so the Overseer traces that spread, makes the edits together,
+and then checks that the workspace still agrees with itself. It is
+the only seat that edits the rulebook, the templates, and the other
+seats' startup files, and it builds new seats when one is needed.
 
-That constraint is what makes the seat safe to have. It has the widest
-reach in the mesh and the narrowest permission to use it unasked.
+Work that belongs to a project goes to the Director instead.
+
+Its own file carries the constraint that keeps that reach safe: it
+proposes changes and waits for your word before overwriting anything
+protected. The widest reach in the mesh, and the narrowest permission
+to use it unasked.
 ```

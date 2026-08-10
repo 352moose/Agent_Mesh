@@ -1,7 +1,7 @@
 ---
 type: living_doc
 scope: blueprint_machines
-name: Snake — tutorial project
+name: Tutorial build
 created: 2026/08/09
 updated: 2026/08/09
 maintained_by: BUILDING AGENT

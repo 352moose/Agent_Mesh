@@ -21,8 +21,8 @@ The Director's inbox. Typed files land here per the RULEBOOK desk protocol — r
 
 The Director's desk — the inbox for the seat that runs your projects.
 What arrives here is aimed at project work. The Director's own first
-spin-up, which builds your security checklist and stands up your first
-project, began as a work order waiting on this desk. You won't file
-things here yourself; you'll watch the Director clear it at the start
-of each session.
+spin-up, which walks you through a project folder and then hands you
+the choice of how to begin, began as a work order waiting on this
+desk. You won't file things here yourself; you'll watch the Director
+clear it at the start of each session.
 ```

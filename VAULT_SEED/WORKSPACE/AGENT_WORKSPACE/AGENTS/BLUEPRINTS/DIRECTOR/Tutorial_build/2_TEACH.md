@@ -1,6 +1,6 @@
 ---
 type: blueprint_teach
-name: Snake — tutorial project
+name: Tutorial build
 created: 2026/08/09
 updated: 2026/08/09
 review_status: protected

@@ -28,10 +28,11 @@ checks against, references built once and used for months.
 
 There are four, one for each seat. The Guide's carries the manual
 for how this workspace operates and the running picture of who you
-are. The Director's carries the security checklist built for the
-surfaces you actually work on. The Overseer's collects what it
-learns keeping the workspace consistent, and CLIde's holds what one
-build teaches that the next build will need.
+are. The Director's carries the security checklist for the surfaces
+you actually work on, and the ideas you have not committed to yet.
+The Overseer's collects what it learns keeping the workspace
+consistent, and CLIde's holds what one build teaches that the next
+build will need.
 
 Most of them start empty and fill as the seats work, and everything
 on them is protected — the sweep that clears desks never touches a

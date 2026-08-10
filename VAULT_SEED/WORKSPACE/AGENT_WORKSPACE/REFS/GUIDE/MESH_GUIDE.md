@@ -34,7 +34,7 @@ A fresh mesh opens with three first spin-ups, in order: Guide (who you are), the
 | GUIDE | `fetch me the guide` | Your first stop — the mesh's guide. Explains how things work, routes work to the right seat; ad-hoc help at your direction |
 | DIRECTOR   | `fetch me the director`   | Plans project work one step at a time; writes the build prompt CLIde executes    |
 | CLIDE      | `fetch me clide`          | Build-side executor. Runs one ACTION_PROMPT in the terminal, with you            |
-| OVERSEER   | `fetch me the overseer`   | Workspace keeper. Audits structure, keeps conventions consistent, intake seat    |
+| OVERSEER   | `fetch me the overseer`   | Workspace keeper. Audits structure, keeps conventions consistent, traces a change across everything that depended on it |
 
 ## How build work flows
 

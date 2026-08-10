@@ -1,6 +1,6 @@
 ---
 type: blueprint
-name: Snake — tutorial project
+name: Tutorial build
 version: 1
 created: 2026/08/09
 updated: 2026/08/09
@@ -9,7 +9,7 @@ handoffs: 0
 review_status: protected
 ---
 
-# Snake — Tutorial Project Blueprint
+# Tutorial Build Blueprint
 
 > Arrival doc. A blueprint is a case study, not a script — it records what one machine did and why, with enough context that a reasoning agent can translate it to a different machine. Read this tree in numeric order. Nothing runs before `1_AUDIT.md` passes.
 
@@ -19,7 +19,9 @@ review_status: protected
 
 A worked demonstration of the Director→CLIde cycle, run three times against real code on the user's own machine.
 
-**The deliverable is the loop, not the program.** What a completed run leaves behind is three `ACTION_PROMPT`s, three `ACTION_REPORT`s, a `STATE.md` that moved, and a user who has checked a report against reality three times and knows what that feels like. Snake is the vehicle. It was chosen because a game is the one artifact nobody needs a report to evaluate — the user can tell in four seconds whether the cycle delivered what it claimed.
+**The deliverable is user understanding and turns landing.** Not the program, and not the paperwork it leaves behind. A completed run means the user can move between seats unaided — they know how to leave the Director, open a fresh session for CLIde, and come back — and every handoff arrived where it was aimed. Snake is the vehicle. It was chosen because a game is the one artifact nobody needs a report to evaluate: the user can tell in four seconds whether the cycle delivered what it claimed.
+
+Keep it light. CLIde builds Snake unaided, so the prompts stay at intent plus what done looks like — a real project's apparatus loaded onto this one buries the thing being taught.
 
 The consequence is worth stating plainly, because it inverts the usual measure of success:
 
