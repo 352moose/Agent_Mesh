@@ -32,37 +32,3 @@ MESH_SEED_V2  →  →  →  drop into your vault's root folder — in Finder / 
 | Path | What it is |
 |---|---|
 | `MESH_SEED_V2/` | The seed — the entry work order (`START_HERE.md`) at its root plus the blank workspace (`WORKSPACE/`) |
-| `APPS/seed_nav/` | Optional file-tree sidebar — only for browsing without a markdown editor |
-
-## Nav app (optional)
-
-The workspace is just files and folders — the intended way to live in it is any markdown editor (Obsidian is a natural fit). Seed Nav exists only for those who'd rather not adopt one: a bare-bones sidebar for clicking around the file structure. Already have an editor you like? Skip this whole section.
-
-Double-click **`Seed Nav`** (the app, macOS) or **`Seed Nav.bat`** (Windows) here at the root — a tall sidebar window opens with the file tree; double-click any file to open it in your default editor.
-
-First launch on macOS shows a warning — *"Apple could not verify 'Seed Nav' is free of malware"*. That's because the app is an unsigned open-source script, not registered with Apple. Click **Done** (not Move to Trash), then open **System Settings → Privacy & Security**, scroll down to the "Seed Nav" notice, and click **Open Anyway** — the next double-click opens normally, and the warning never returns. On older macOS versions, right-click → **Open** → **Open** does the same job in one step.
-
-Or from a terminal:
-
-```
-python3 APPS/seed_nav/seed_nav.py [folder]
-```
-
-No argument opens the seed vault (`MESH_SEED_V2/`) — the repo's app scaffolding stays out of view; pass a folder to open anything else. Python 3 standard library only — no installs, no build step.
-
-### Factory-fresh machine
-
-The nav needs a Python with **Tk 8.6**. A brand-new machine doesn't have one — one installer fixes it:
-
-- **macOS** — install Python 3 from <https://www.python.org/downloads/> (ships Tk 8.6). The launcher prefers it automatically once present. Without it, macOS falls back to its own python, which first prompts to install Apple's developer tools — and even then its Tk 8.5 draws a blank, unpopulated tree on current macOS.
-- **Windows** — install Python 3 from the same page and tick **"Add python.exe to PATH"** in the installer; `Seed Nav.bat` needs `pythonw`/`python` on PATH.
-
-### Gotchas
-
-| Symptom | Cause | Fix |
-|---|---|---|
-| Window opens but the tree is blank | Running under Apple's system python (Tk 8.5) | Install python.org Python 3, relaunch |
-| Double-click prompts "install developer tools" | No real Python on the machine yet | Install python.org Python 3 instead — the prompt then never appears |
-| Double-clicking `Seed Nav` opens it as a folder instead of launching | Finder cached the bundle as a plain folder (can happen right after the repo lands) | Run `open "Seed Nav.app"` once from a terminal at the repo root — Finder re-registers it; double-click works from then on |
-
-**Saving caveat:** the nav opens files in your system's default editor, and saving is that editor's job, not the nav's. TextEdit and Obsidian auto-save continuously; VS Code does not unless you enable it (`files.autoSave`). This matters here: agents read what is on **disk** — an unsaved editor buffer is invisible to the mesh until it saves. An auto-saving editor as your default `.md` handler makes this a non-issue.
