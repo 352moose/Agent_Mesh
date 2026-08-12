@@ -9,7 +9,7 @@ Turn-based and semi-autonomous — quality output over loops or sandboxes, with 
 | Step | Do | Gotcha |
 |---|---|---|
 | 1 | Get this folder onto your machine. | — |
-| 2 | Point your assistant at `VAULT_SEED/START_HERE/START_HERE.md` and tell it to **execute this document**. | Say *execute* — an agent told to *read* will read, nod, and wait. The assistant needs real file access: CLI assistants have it natively; chat/desktop assistants (e.g. running inside Obsidian) reach the folder through an MCP file server — set that up first, pointed at the vault root. |
+| 2 | Point your assistant at `MESH_SEED_V2/START_HERE.md` and tell it to **execute this document**. | Say *execute* — an agent told to *read* will read, nod, and wait. The assistant needs real file access: CLI assistants have it natively; chat/desktop assistants (e.g. running inside Obsidian) reach the folder through an MCP file server — set that up first, pointed at the vault root. |
 | 3 | The guide spins up, learns who you are, and gives you the tour (below), then prompts a session close — the first memory cycle, which seeds the standard. | Intake is skippable. |
 | 4 | Open a new session and spin up the overseer with the trigger phrase the guide taught you. | Make sure the new session is pointed at the same folder. |
 | 5 | The overseer does the heavy lifting: workspace setup and crons, under whatever permission gates you grant it. It also keeps a protocol for building new agents — ask for one, and it builds the fixtures while holding the standards across the mesh. | — |
@@ -22,7 +22,7 @@ First spin-up is a guided walk, not a README dump. The guide takes you through t
 ## Obsidian install
 
 ```
-VAULT_SEED  →  →  →  drop into your vault's root folder — in Finder / File Explorer
+MESH_SEED_V2  →  →  →  drop into your vault's root folder — in Finder / File Explorer
 ```
 
 > Drag in the **file system**, not the Obsidian window — Obsidian's UI won't accept a nested folder dropped into it; the drop silently does nothing. A nested folder has to land at the vault root in Finder / File Explorer.
@@ -31,7 +31,7 @@ VAULT_SEED  →  →  →  drop into your vault's root folder — in Finder / Fi
 
 | Path | What it is |
 |---|---|
-| `VAULT_SEED/` | The seed — front door (`START_HERE/`) plus the blank workspace (`WORKSPACE/`) |
+| `MESH_SEED_V2/` | The seed — the entry work order (`START_HERE.md`) at its root plus the blank workspace (`WORKSPACE/`) |
 | `APPS/seed_nav/` | Optional file-tree sidebar — only for browsing without a markdown editor |
 
 ## Nav app (optional)
@@ -48,7 +48,7 @@ Or from a terminal:
 python3 APPS/seed_nav/seed_nav.py [folder]
 ```
 
-No argument opens the seed vault (`VAULT_SEED/`) — the repo's app scaffolding stays out of view; pass a folder to open anything else. Python 3 standard library only — no installs, no build step.
+No argument opens the seed vault (`MESH_SEED_V2/`) — the repo's app scaffolding stays out of view; pass a folder to open anything else. Python 3 standard library only — no installs, no build step.
 
 ### Factory-fresh machine
 

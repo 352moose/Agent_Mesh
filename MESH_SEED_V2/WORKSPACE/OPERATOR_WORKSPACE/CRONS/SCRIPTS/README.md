@@ -1,0 +1,33 @@
+---
+type: readme
+class: work
+state: unflagged
+review_status: live
+created: 2026/08/05
+updated: 2026/08/11
+tags:
+  - readme
+  - scripts
+---
+
+# Scripts
+
+> The `.py` jobs live here — one self-contained script per cron, standard library only. Build them from the shelf manual: `../README.md`. The user's crontab points at these files; agents stage them, the user installs.
+
+---
+
+## Dive Card
+
+> Guide: not a walk stop — deliver the fenced block verbatim only when the user takes the dive option at the shelf fork.
+
+```
+── Tour Stop — WORKSPACE/OPERATOR_WORKSPACE/CRONS/SCRIPTS/
+
+This shelf holds the jobs themselves — one self-contained Python script
+per cron, built by the Overseer from the manual one level up. It starts
+empty and fills during workspace setup. Once installed, your crontab
+points straight at these files: they are what actually runs on the
+clock. You won't edit them day to day — agents stage them here, you own
+the schedule — but this is where to look when you want to see exactly
+what a scheduled job does.
+```

@@ -6,7 +6,7 @@ style. Folders lazy-expand as drop-downs; double-clicking a file opens it
 in the system's default application.
 
 Launch:  python3 seed_nav.py [folder]
-         no argument = the VAULT_SEED/ vault beside this app; repo root if absent
+         no argument = the MESH_SEED_V2/ vault beside this app; repo root if absent
 Refresh: F5 or Cmd-R rescans the tree.
 
 Python 3 standard library only. No third-party dependencies.
@@ -109,7 +109,7 @@ def main():
         # APPS/seed_nav/seed_nav.py -> repo root is two levels up;
         # prefer the seed vault so repo scaffolding stays out of the tree
         root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-        seed = os.path.join(root, "VAULT_SEED")
+        seed = os.path.join(root, "MESH_SEED_V2")
         if os.path.isdir(seed):
             root = seed
     if not os.path.isdir(root):

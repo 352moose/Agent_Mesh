@@ -1,0 +1,41 @@
+---
+type: readme
+class: work
+state: unflagged
+review_status: live
+created: 2026/08/07
+updated: 2026/08/11
+tags:
+  - readme
+  - active
+---
+
+# ACTIVE MEMORY
+
+> Each seat's living carry-forward card, one folder per seat. Card discipline lives in the RULEBOOK memory table; this README carries the tier's bundled tour stop.
+
+---
+
+## Dive Card
+
+> Guide: not a walk stop — deliver the fenced block verbatim only when the user takes the dive option at the shelf fork. This one card covers all three seat folders — the walk does not stop at each.
+
+```
+── Tour Stop — WORKSPACE/AGENT_WORKSPACE/MEMORY_CARDS/ACTIVE_MEMORY/
+
+This shelf holds each seat's active memory — the living card a seat
+reads first thing at every spin-up, one folder per seat. Each card
+stays small on purpose: the seat trims it as it goes, keeping what
+still earns its place and letting the rest fall away.
+
+Three seats keep a card here: the Guide (how you work together, and
+a short log of recent sessions), the Overseer (what the workspace
+caretaker is watching), the Director (standing decisions and the
+state of things in flight). Each folder tells the fuller story of
+what lands there and why it matters.
+
+One seat is missing on purpose: CLIde keeps no folder here — its
+active card lives inside each project, right beside the code it's
+about. None of this is homework for you; every seat maintains its
+own card before each session closes.
+```
