@@ -4,7 +4,7 @@ class: canon
 state: unflagged
 review_status: protected
 created: 2026/08/05
-updated: 2026/08/11 OV S99
+updated: 2026/08/12 OV S108
 tags:
   - bootstrap
   - clide
@@ -95,7 +95,7 @@ tags:
 
 | Phase  | DO                  | Interrogatives                                                                                                  |
 | ------ | ------------------- | --------------------------------------------------------------------------------------------------------------- |
-| Gate   | Project select      | Ask the operator for the session target                                                                         |
+| Gate   | Project select      | list `PROJECTS/ACTIVE/`, ask the operator which                                                                 |
 | Load   | Memory card         | `PROJECTS/ACTIVE/[PROJECT]/CLIDE/ACTIVE.md` — missing = seed by COPY from the template card                     |
 | Load   | Read the job        | `PROJECTS/ACTIVE/[PROJECT]/BUILD/ACTION_PROMPT.md` — all six sections                                           |
 | Gate   | Explain             | touch surface, one line reasoning                                                                               |
