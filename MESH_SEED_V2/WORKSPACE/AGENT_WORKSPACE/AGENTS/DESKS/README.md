@@ -3,8 +3,8 @@ type: readme
 class: work
 state: unflagged
 review_status: live
-created: 2026/08/09
-updated: 2026/08/12
+created: 2026/08/12 OV S108
+updated: 2026/08/12 OV S108
 tags:
   - readme
   - desks
@@ -34,8 +34,7 @@ first day — moves the flagged files to the trash later, which means
 a mistake is always recoverable.
 
 There are three. The Director's desk takes project work. The Guide's
-belongs to the seat you are talking to right now, and it is the one
-desk you might ever put something on yourself. The Overseer's takes
+belongs to the seat you are talking to right now. The Overseer's takes
 notices about the workspace itself rather than about any one project.
 
 You mostly won't file anything here — what you'll see is a seat

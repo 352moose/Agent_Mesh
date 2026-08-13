@@ -3,8 +3,8 @@ type: work_order
 class: work
 state: unflagged
 review_status: pending_review
-created: 2026/08/05
-updated: 2026/08/12
+created: 2026/08/12 OV S108
+updated: 2026/08/12 OV S108
 tags:
   - spinup
   - overseer

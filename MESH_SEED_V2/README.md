@@ -28,7 +28,7 @@ This is the mesh's front door: the entry work order (`START_HERE.md`) beside thi
 This is the front door — the place that woke everything up. The
 START_HERE file beside this one holds the first-run instructions your
 first agent has already carried out, so its work here is done. What
-stays useful is what I already built: the trigger registry —
+stays useful is what it already built: the trigger registry —
 "fetch me the guide," "fetch me the director," and so on. Say the
 phrase to any model pointed at this root, and it steps into
 that seat and picks up where things left off. The registry lives
